@@ -37,7 +37,7 @@ Demo target: [Restful-Booker](https://restful-booker.herokuapp.com) — a public
 
 ```bash
 git clone <your-repo-url>
-cd Task_Sr_API_AbdElghany
+cd Restful_booker-Rest-Assured
 mvn clean verify
 ```
 
@@ -409,7 +409,7 @@ change. For a new resource:
 ## 13. Project structure
 
 ```
-src/main/java/com/abdelghany/api
+src/main/java/com/Restful_booker/api
 ├── config/       ConfigManager, ConfigProvider          # typed, layered configuration
 ├── constants/    EndPoints, AuthType                    # no URL literals elsewhere
 ├── specs/        SpecFactory                            # request/response specifications
@@ -421,7 +421,7 @@ src/main/java/com/abdelghany/api
 └── utils/        JsonDataReader, TemplateResolver,      # data-driven + dynamic data
                   DataGenerator
 
-src/test/java/com/abdelghany/api
+src/test/java/com/Restful_booker/api
 ├── runners/          BaseRunner, TestRunner, SmokeRunner, RegressionRunner
 ├── context/          ScenarioContext                    # per-scenario, DI-injected
 ├── hooks/            Hooks                              # token setup, cleanup, log attachment
