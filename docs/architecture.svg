@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="700" viewBox="0 0 980 700" font-family="Segoe UI, Arial, sans-serif">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#5b6b7c"/>
+    </marker>
+    <style>
+      .title { font-size: 22px; font-weight: 700; fill: #1b2733; }
+      .sub   { font-size: 13px; fill: #5b6b7c; }
+      .layer { font-size: 16px; font-weight: 600; fill: #10212f; }
+      .desc  { font-size: 12px; fill: #44586a; }
+      .side  { font-size: 13px; font-weight: 600; fill: #10212f; }
+      .sdesc { font-size: 11px; fill: #4a5c6d; }
+      .tag   { font-size: 11px; fill: #6b7a89; font-style: italic; }
+    </style>
+  </defs>
+
+  <rect width="980" height="700" fill="#f6f8fa"/>
+  <text x="34" y="44" class="title">REST Assured API Test Automation Framework</text>
+  <text x="34" y="66" class="sub">Cucumber BDD  ·  TestNG  ·  Service Object Model  ·  SOLID  ·  Data-Driven  ·  Allure</text>
+
+  <!-- Main layer stack -->
+  <rect x="34" y="92" width="600" height="72" rx="8" fill="#e8f1fb" stroke="#9cc3ea" stroke-width="1.5"/>
+  <text x="52" y="120" class="layer">1 · Feature Files (Gherkin)</text>
+  <text x="52" y="142" class="desc">Scenario Outline + Examples · tags: @smoke @auth @negative @e2e @ignore</text>
+  <text x="52" y="157" class="tag">src/test/resources/features</text>
+
+  <rect x="34" y="184" width="600" height="80" rx="8" fill="#e9f6ee" stroke="#93cfae" stroke-width="1.5"/>
+  <text x="52" y="212" class="layer">2 · Step Definitions · Hooks · ScenarioContext</text>
+  <text x="52" y="234" class="desc">Assertions live here · token setup and cleanup in hooks</text>
+  <text x="52" y="252" class="desc">PicoContainer injects a fresh context per scenario → thread-safe parallelism</text>
+
+  <rect x="34" y="284" width="600" height="80" rx="8" fill="#fdf1e3" stroke="#e8bd85" stroke-width="1.5"/>
+  <text x="52" y="312" class="layer">3 · Services — Service Object Model</text>
+  <text x="52" y="334" class="desc">AuthService · BookingService · HealthService (one class per resource)</text>
+  <text x="52" y="352" class="desc">Business operations only — no HTTP details leak upward</text>
+
+  <rect x="34" y="384" width="600" height="72" rx="8" fill="#f3edfb" stroke="#bfa6e0" stroke-width="1.5"/>
+  <text x="52" y="412" class="layer">4 · RestClient</text>
+  <text x="52" y="434" class="desc">Generic GET / POST / PUT / PATCH / DELETE · logs every call and its duration</text>
+
+  <rect x="34" y="476" width="600" height="72" rx="8" fill="#fdeef0" stroke="#eaa7b0" stroke-width="1.5"/>
+  <text x="52" y="504" class="layer">5 · SpecFactory</text>
+  <text x="52" y="526" class="desc">Base URI · auth scheme · timeouts · Allure and logging filters</text>
+
+  <rect x="34" y="568" width="600" height="86" rx="8" fill="#eceff2" stroke="#a9b6c2" stroke-width="1.5"/>
+  <text x="52" y="596" class="layer">6 · ConfigManager (Owner)</text>
+  <text x="52" y="618" class="desc">system properties  →  config/&lt;env&gt;.properties  →  config.properties</text>
+  <text x="52" y="638" class="desc">Nothing hard-coded; every key overridable with -D at run time</text>
+
+  <!-- Arrows between layers -->
+  <line x1="334" y1="164" x2="334" y2="182" stroke="#5b6b7c" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="334" y1="264" x2="334" y2="282" stroke="#5b6b7c" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="334" y1="364" x2="334" y2="382" stroke="#5b6b7c" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="334" y1="456" x2="334" y2="474" stroke="#5b6b7c" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="334" y1="548" x2="334" y2="566" stroke="#5b6b7c" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <!-- Cross-cutting column -->
+  <rect x="664" y="92" width="282" height="562" rx="8" fill="#ffffff" stroke="#c9d3dd" stroke-width="1.5" stroke-dasharray="5 4"/>
+  <text x="682" y="118" class="side">Cross-cutting concerns</text>
+
+  <rect x="682" y="132" width="246" height="76" rx="6" fill="#e8f1fb"/>
+  <text x="696" y="153" class="side">Test Data</text>
+  <text x="696" y="171" class="sdesc">JSON files + TemplateResolver</text>
+  <text x="696" y="187" class="sdesc">${faker...} ${date.today+7}</text>
+  <text x="696" y="201" class="sdesc">${random.int} ${uuid} → dynamic</text>
+
+  <rect x="682" y="220" width="246" height="62" rx="6" fill="#e9f6ee"/>
+  <text x="696" y="241" class="side">Models (POJOs)</text>
+  <text x="696" y="259" class="sdesc">Lombok @Builder + Jackson</text>
+  <text x="696" y="275" class="sdesc">request / response packages</text>
+
+  <rect x="682" y="294" width="246" height="62" rx="6" fill="#fdf1e3"/>
+  <text x="696" y="315" class="side">ApiAssertions</text>
+  <text x="696" y="333" class="sdesc">Fluent hard + soft assertions</text>
+  <text x="696" y="349" class="sdesc">Each check is an Allure step</text>
+
+  <rect x="682" y="368" width="246" height="76" rx="6" fill="#f3edfb"/>
+  <text x="696" y="389" class="side">Logging (Log4j2)</text>
+  <text x="696" y="407" class="sdesc">Console — live during the run</text>
+  <text x="696" y="423" class="sdesc">File — target/logs</text>
+  <text x="696" y="439" class="sdesc">ScenarioLog — into Allure</text>
+
+  <rect x="682" y="456" width="246" height="62" rx="6" fill="#fdeef0"/>
+  <text x="696" y="477" class="side">TestNG Listeners</text>
+  <text x="696" y="495" class="sdesc">Lifecycle logs · environment info</text>
+  <text x="696" y="511" class="sdesc">Retry analyzer + transformer</text>
+
+  <rect x="682" y="530" width="246" height="76" rx="6" fill="#eceff2"/>
+  <text x="696" y="551" class="side">Reporting</text>
+  <text x="696" y="569" class="sdesc">Allure: request / response,</text>
+  <text x="696" y="585" class="sdesc">test data, execution log,</text>
+  <text x="696" y="601" class="sdesc">categories, environment</text>
+
+  <line x1="636" y1="373" x2="662" y2="373" stroke="#5b6b7c" stroke-width="2" stroke-dasharray="4 3" marker-end="url(#arrow)"/>
+  <text x="686" y="632" class="tag">Applied across every layer</text>
+</svg>

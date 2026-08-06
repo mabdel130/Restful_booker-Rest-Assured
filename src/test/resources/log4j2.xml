@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- packages= lets Log4j2 find our custom ScenarioLog appender -->
+<Configuration status="WARN" packages="com.Restful_booker.api.logging">
+    <Properties>
+        <Property name="pattern">%d{HH:mm:ss.SSS} [%t] %-5level %logger{1} - %msg%n</Property>
+    </Properties>
+
+    <Appenders>
+        <!-- 1. Live console output during the run -->
+        <Console name="Console" target="SYSTEM_OUT">
+            <PatternLayout pattern="${pattern}"/>
+        </Console>
+
+        <!-- 2. Full run log on disk -->
+        <RollingFile name="File" fileName="target/logs/test-execution.log"
+                     filePattern="target/logs/test-execution-%d{yyyy-MM-dd}-%i.log.gz">
+            <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %-5level %logger - %msg%n"/>
+            <Policies>
+                <SizeBasedTriggeringPolicy size="10 MB"/>
+            </Policies>
+            <DefaultRolloverStrategy max="5"/>
+        </RollingFile>
+
+        <!-- 3. Per-scenario buffer, attached to the Allure report by Hooks -->
+        <ScenarioLog name="Allure">
+            <PatternLayout pattern="${pattern}"/>
+        </ScenarioLog>
+    </Appenders>
+
+    <Loggers>
+        <Logger name="com.Restful_booker.api" level="debug" additivity="false">
+            <AppenderRef ref="Console"/>
+            <AppenderRef ref="File"/>
+            <AppenderRef ref="Allure"/>
+        </Logger>
+        <Root level="info">
+            <AppenderRef ref="Console"/>
+            <AppenderRef ref="File"/>
+            <AppenderRef ref="Allure"/>
+        </Root>
+    </Loggers>
+</Configuration>

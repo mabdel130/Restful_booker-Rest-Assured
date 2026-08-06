@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="470" viewBox="0 0 980 470" font-family="Segoe UI, Arial, sans-serif">
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#5b6b7c"/>
+    </marker>
+    <style>
+      .title { font-size: 21px; font-weight: 700; fill: #1b2733; }
+      .sub   { font-size: 13px; fill: #5b6b7c; }
+      .box   { font-size: 14px; font-weight: 600; fill: #10212f; }
+      .d     { font-size: 11px; fill: #4a5c6d; }
+      .phase { font-size: 11px; font-weight: 700; fill: #7a5c00; }
+    </style>
+  </defs>
+
+  <rect width="980" height="470" fill="#f6f8fa"/>
+  <text x="34" y="42" class="title">Execution flow — why the report always exists</text>
+  <text x="34" y="64" class="sub">mvn verify · the Allure report is produced before the build is allowed to fail</text>
+
+  <!-- Step 1 -->
+  <rect x="34" y="92" width="176" height="92" rx="8" fill="#e8f1fb" stroke="#9cc3ea" stroke-width="1.5"/>
+  <text x="48" y="118" class="box">mvn verify</text>
+  <text x="48" y="138" class="d">-Denv=qa</text>
+  <text x="48" y="154" class="d">-Dsuite=testng</text>
+  <text x="48" y="170" class="d">-Dthread.count=4</text>
+
+  <!-- Step 2 -->
+  <rect x="242" y="92" width="200" height="92" rx="8" fill="#e9f6ee" stroke="#93cfae" stroke-width="1.5"/>
+  <text x="256" y="112" class="phase">phase: integration-test</text>
+  <text x="256" y="134" class="box">maven-failsafe</text>
+  <text x="256" y="154" class="d">runs the TestNG suite,</text>
+  <text x="256" y="170" class="d">records but does not fail</text>
+
+  <!-- Step 3 -->
+  <rect x="474" y="92" width="212" height="92" rx="8" fill="#fdf1e3" stroke="#e8bd85" stroke-width="1.5"/>
+  <text x="488" y="118" class="box">TestNG suite</text>
+  <text x="488" y="138" class="d">testng.xml (parallel)</text>
+  <text x="488" y="154" class="d">testng-sequential.xml</text>
+  <text x="488" y="170" class="d">testng-dependency.xml</text>
+
+  <!-- Step 4 -->
+  <rect x="718" y="92" width="228" height="92" rx="8" fill="#f3edfb" stroke="#bfa6e0" stroke-width="1.5"/>
+  <text x="732" y="118" class="box">Cucumber scenarios</text>
+  <text x="732" y="138" class="d">one thread per scenario</text>
+  <text x="732" y="154" class="d">fresh ScenarioContext each</text>
+  <text x="732" y="170" class="d">→ target/allure-results</text>
+
+  <line x1="210" y1="138" x2="240" y2="138" stroke="#5b6b7c" stroke-width="2" marker-end="url(#a)"/>
+  <line x1="442" y1="138" x2="472" y2="138" stroke="#5b6b7c" stroke-width="2" marker-end="url(#a)"/>
+  <line x1="686" y1="138" x2="716" y2="138" stroke="#5b6b7c" stroke-width="2" marker-end="url(#a)"/>
+
+  <!-- down arrow -->
+  <line x1="832" y1="184" x2="832" y2="232" stroke="#5b6b7c" stroke-width="2" marker-end="url(#a)"/>
+
+  <!-- Step 5 -->
+  <rect x="600" y="240" width="346" height="104" rx="8" fill="#fdeef0" stroke="#eaa7b0" stroke-width="1.5"/>
+  <text x="616" y="262" class="phase">phase: post-integration-test</text>
+  <text x="616" y="286" class="box">allure-maven : report</text>
+  <text x="616" y="306" class="d">Runs whether scenarios passed or failed —</text>
+  <text x="616" y="322" class="d">this is the whole reason Failsafe is used</text>
+  <text x="616" y="338" class="d">instead of Surefire. → target/allure-report</text>
+
+  <line x1="598" y1="292" x2="562" y2="292" stroke="#5b6b7c" stroke-width="2" marker-end="url(#a)"/>
+
+  <!-- Step 6 -->
+  <rect x="286" y="240" width="276" height="104" rx="8" fill="#eceff2" stroke="#a9b6c2" stroke-width="1.5"/>
+  <text x="302" y="262" class="phase">phase: verify</text>
+  <text x="302" y="286" class="box">failsafe : verify</text>
+  <text x="302" y="306" class="d">Now the build fails if anything failed.</text>
+  <text x="302" y="322" class="d">The report already exists, so CI can</text>
+  <text x="302" y="338" class="d">always publish it as an artifact.</text>
+
+  <!-- Outputs -->
+  <rect x="34" y="368" width="912" height="72" rx="8" fill="#ffffff" stroke="#c9d3dd" stroke-width="1.5" stroke-dasharray="5 4"/>
+  <text x="50" y="392" class="box">Artifacts produced every run</text>
+  <text x="50" y="412" class="d">target/allure-report/index.html  ·  target/allure-results  ·  target/cucumber-report.html  ·  target/cucumber-report.json</text>
+  <text x="50" y="430" class="d">target/logs/test-execution.log  ·  target/failsafe-reports  ·  per-scenario "Execution log" attached inside Allure</text>
+</svg>

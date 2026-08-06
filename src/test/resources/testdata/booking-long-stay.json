@@ -1,0 +1,11 @@
+{
+  "firstname": "${faker.Name.firstName}",
+  "lastname": "${faker.Name.lastName}",
+  "totalprice": "${random.int(4000,9000)}",
+  "depositpaid": "true",
+  "bookingdates": {
+    "checkin": "${date.today+60}",
+    "checkout": "${date.today+120}"
+  },
+  "additionalneeds": "Airport transfer"
+}

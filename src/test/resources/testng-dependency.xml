@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<!-- DEPENDENCY suite: smoke acts as a gate for regression.
+     Run with:  mvn verify -Dsuite=testng-dependency
+
+     RegressionRunner declares dependsOnGroups="smoke", so if any smoke scenario
+     fails the regression scenarios are SKIPPED rather than executed against an
+     API that is already known to be broken. Both runners must sit in the same
+     <test> block for the group dependency to resolve. -->
+<suite name="API Suite (smoke gates regression)" data-provider-thread-count="${thread.count}" verbose="1">
+
+    <listeners>
+        <listener class-name="com.Restful_booker.api.listeners.TestListener"/>
+        <listener class-name="com.Restful_booker.api.listeners.RetryTransformer"/>
+    </listeners>
+
+    <test name="Smoke then regression">
+        <classes>
+            <class name="com.Restful_booker.api.runners.SmokeRunner"/>
+            <class name="com.Restful_booker.api.runners.RegressionRunner"/>
+        </classes>
+    </test>
+</suite>

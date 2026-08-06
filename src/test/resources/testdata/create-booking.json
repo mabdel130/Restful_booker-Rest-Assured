@@ -1,0 +1,11 @@
+{
+  "firstname": "${faker.Name.firstName}",
+  "lastname": "${faker.Name.lastName}",
+  "totalprice": "${random.int(100,900)}",
+  "depositpaid": "${random.bool}",
+  "bookingdates": {
+    "checkin": "${date.today+7}",
+    "checkout": "${date.today+14}"
+  },
+  "additionalneeds": "${faker.Food.dish}"
+}

@@ -1,0 +1,133 @@
+name: API Tests
+
+on:
+  push:
+    branches: [ main, master, develop ]
+  pull_request:
+    branches: [ main, master, develop ]
+  schedule:
+    # Nightly regression at 02:00 UTC
+    - cron: '0 2 * * *'
+  workflow_dispatch:
+    inputs:
+      env:
+        description: 'Target environment (matches config/<env>.properties)'
+        required: true
+        default: 'qa'
+        type: choice
+        options: [ qa, prod ]
+      suite:
+        description: 'Execution mode'
+        required: true
+        default: 'testng'
+        type: choice
+        options:
+          - testng              # parallel
+          - testng-sequential   # one scenario at a time
+          - testng-dependency   # smoke gates regression
+      tags:
+        description: 'Cucumber tag filter (leave blank to use the runner defaults)'
+        required: false
+        default: ''
+      threads:
+        description: 'Parallel thread count'
+        required: false
+        default: '4'
+
+permissions:
+  contents: read
+  checks: write
+  pages: write
+  id-token: write
+
+jobs:
+  api-tests:
+    name: Run API test suite
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up JDK 21
+        uses: actions/setup-java@v4
+        with:
+          java-version: '21'
+          distribution: 'temurin'
+          cache: maven
+
+      - name: Resolve credential overrides
+        id: creds
+        # Credentials never live in the repo. If the secrets exist they are passed
+        # as -D overrides; otherwise the demo values in config.properties are used.
+        env:
+          AUTH_USERNAME: ${{ secrets.AUTH_USERNAME }}
+          AUTH_PASSWORD: ${{ secrets.AUTH_PASSWORD }}
+          TAGS: ${{ inputs.tags }}
+        run: |
+          ARGS=""
+          if [ -n "$AUTH_USERNAME" ]; then ARGS="$ARGS -Dauth.username=$AUTH_USERNAME"; fi
+          if [ -n "$AUTH_PASSWORD" ]; then ARGS="$ARGS -Dauth.password=$AUTH_PASSWORD"; fi
+          # Only set a tag filter when one was requested — a system property would
+          # otherwise override the per-runner tags used by the dependency suite.
+          if [ -n "$TAGS" ]; then ARGS="$ARGS -Dcucumber.filter.tags=$TAGS"; fi
+          echo "args=$ARGS" >> "$GITHUB_OUTPUT"
+
+      - name: Run tests and generate the Allure report
+        # The Allure report is bound to post-integration-test, so it is produced
+        # even when scenarios fail; failsafe:verify fails the job afterwards.
+        run: >
+          mvn -B --no-transfer-progress clean verify
+          -Denv=${{ inputs.env || 'qa' }}
+          -Dsuite=${{ inputs.suite || 'testng' }}
+          -Dthread.count=${{ inputs.threads || '4' }}
+          ${{ steps.creds.outputs.args }}
+
+      - name: Publish TestNG results as a check
+        uses: dorny/test-reporter@v1
+        if: always()
+        with:
+          name: API test results
+          path: target/failsafe-reports/TEST-*.xml
+          reporter: java-junit
+          fail-on-error: false
+
+      - name: Upload Allure report
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: allure-report
+          path: target/allure-report
+          retention-days: 30
+
+      - name: Upload raw results and logs
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: test-artifacts
+          path: |
+            target/allure-results
+            target/failsafe-reports
+            target/logs
+            target/cucumber-report.html
+          retention-days: 14
+
+  publish-report:
+    name: Publish Allure report to GitHub Pages
+    needs: api-tests
+    if: always() && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Download Allure report
+        uses: actions/download-artifact@v4
+        with:
+          name: allure-report
+          path: allure-report
+
+      - name: Deploy to gh-pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: allure-report
+          keep_files: false

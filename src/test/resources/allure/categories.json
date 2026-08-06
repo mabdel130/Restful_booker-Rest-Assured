@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Failed assertions",
+    "matchedStatuses": ["failed"],
+    "messageRegex": ".*AssertionError.*"
+  },
+  {
+    "name": "Schema violations",
+    "matchedStatuses": ["failed"],
+    "messageRegex": ".*(schema|Schema).*"
+  },
+  {
+    "name": "Connectivity / timeout problems",
+    "matchedStatuses": ["broken"],
+    "messageRegex": ".*(Connection|timed out|UnknownHost|SocketTimeout).*"
+  },
+  {
+    "name": "Test data problems",
+    "matchedStatuses": ["broken"],
+    "messageRegex": ".*(test data|template token|not found on classpath).*"
+  },
+  {
+    "name": "Skipped by dependency",
+    "matchedStatuses": ["skipped"]
+  }
+]
