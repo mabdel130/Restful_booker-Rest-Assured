@@ -1,0 +1,11 @@
+{
+  "firstname": "Margit",
+  "lastname": "Paucek",
+  "totalprice": "199",
+  "depositpaid": "false",
+  "bookingdates": {
+    "checkin": "2026-08-21",
+    "checkout": "2026-08-28"
+  },
+  "additionalneeds": "Barbecue Ribs"
+}

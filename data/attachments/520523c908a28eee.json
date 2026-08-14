@@ -1,0 +1,11 @@
+{
+  "firstname": "Wilhelmina",
+  "lastname": "Lehner",
+  "totalprice": "7771",
+  "depositpaid": "true",
+  "bookingdates": {
+    "checkin": "2026-10-13",
+    "checkout": "2026-12-12"
+  },
+  "additionalneeds": "Airport transfer"
+}

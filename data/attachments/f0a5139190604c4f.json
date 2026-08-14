@@ -1,0 +1,11 @@
+{
+  "firstname": "Hugo",
+  "lastname": "Champlin",
+  "totalprice": "526",
+  "depositpaid": "true",
+  "bookingdates": {
+    "checkin": "2026-08-21",
+    "checkout": "2026-08-28"
+  },
+  "additionalneeds": "Tacos"
+}

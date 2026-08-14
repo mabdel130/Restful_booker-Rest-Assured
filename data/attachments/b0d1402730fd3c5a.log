@@ -1,0 +1,19 @@
+05:24:03.229 [TestNG-PoolService-2] INFO  Hooks - ### SCENARIO START: Create a booking from payload "booking-long-stay.json"
+05:24:03.230 [TestNG-PoolService-2] INFO  JsonDataReader - Loaded test data 'booking-long-stay.json' with dynamic values resolved
+05:24:03.231 [TestNG-PoolService-2] DEBUG BookingSteps - Payload from test data file booking-long-stay.json: Booking(firstname=Jon, lastname=Gleichner, totalprice=6816, depositpaid=true, bookingdates=BookingDates(checkin=2026-10-13, checkout=2026-12-12), additionalneeds=Airport transfer)
+05:24:03.232 [TestNG-PoolService-2] INFO  RestClient - --> POST /booking
+05:24:03.623 [TestNG-PoolService-2] INFO  RestClient - <-- POST /booking responded 200 in 391 ms
+05:24:03.623 [TestNG-PoolService-2] INFO  ApiAssertions - Asserting status code is 200
+05:24:03.624 [TestNG-PoolService-2] INFO  ApiAssertions - Asserting content type is JSON
+05:24:03.624 [TestNG-PoolService-2] INFO  ApiAssertions - Asserting body is not empty
+05:24:03.634 [TestNG-PoolService-2] INFO  ApiAssertions - Asserting field 'bookingid' is present
+05:24:03.634 [TestNG-PoolService-2] INFO  ApiAssertions - Asserting response time 376ms is below 30000ms
+05:24:03.637 [TestNG-PoolService-2] INFO  BookingSteps - Created booking id 1614
+05:24:03.637 [TestNG-PoolService-2] INFO  ApiAssertions - Asserting content type is JSON
+05:24:03.665 [TestNG-PoolService-2] INFO  BookingSteps - Response conforms to schema create-booking-schema.json
+05:24:03.666 [TestNG-PoolService-2] INFO  Hooks - Cleaning up booking 1614
+05:24:03.667 [TestNG-PoolService-2] INFO  RestClient - --> POST /auth
+05:24:04.029 [TestNG-PoolService-2] INFO  RestClient - <-- POST /auth responded 200 in 362 ms
+05:24:04.032 [TestNG-PoolService-2] INFO  RestClient - --> DELETE /booking/{id}
+05:24:04.412 [TestNG-PoolService-2] INFO  RestClient - <-- DELETE /booking/{id} responded 201 in 380 ms
+05:24:04.412 [TestNG-PoolService-2] INFO  Hooks - ### SCENARIO END: Create a booking from payload "booking-long-stay.json" -> PASSED
