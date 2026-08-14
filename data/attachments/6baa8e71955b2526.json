@@ -1,0 +1,11 @@
+{
+  "firstname": "Terrance",
+  "lastname": "Champlin",
+  "totalprice": "262",
+  "depositpaid": "true",
+  "bookingdates": {
+    "checkin": "2026-08-21",
+    "checkout": "2026-08-28"
+  },
+  "additionalneeds": "Caesar Salad"
+}
