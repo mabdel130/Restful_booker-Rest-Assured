@@ -1,0 +1,11 @@
+{
+  "firstname": "Johnette",
+  "lastname": "Lindgren",
+  "totalprice": "505",
+  "depositpaid": "false",
+  "bookingdates": {
+    "checkin": "2026-08-22",
+    "checkout": "2026-08-29"
+  },
+  "additionalneeds": "Massaman Curry"
+}
