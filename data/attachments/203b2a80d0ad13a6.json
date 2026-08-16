@@ -1,0 +1,11 @@
+{
+  "firstname": "Tony",
+  "lastname": "Lueilwitz",
+  "totalprice": "744",
+  "depositpaid": "true",
+  "bookingdates": {
+    "checkin": "2026-08-23",
+    "checkout": "2026-08-30"
+  },
+  "additionalneeds": "Caprese Salad"
+}
