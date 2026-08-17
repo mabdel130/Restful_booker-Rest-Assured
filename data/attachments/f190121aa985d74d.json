@@ -1,0 +1,11 @@
+{
+  "firstname": "Osvaldo",
+  "lastname": "Ferry",
+  "totalprice": "4251",
+  "depositpaid": "true",
+  "bookingdates": {
+    "checkin": "2026-10-16",
+    "checkout": "2026-12-15"
+  },
+  "additionalneeds": "Airport transfer"
+}

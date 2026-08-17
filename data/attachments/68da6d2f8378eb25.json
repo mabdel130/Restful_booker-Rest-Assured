@@ -1,0 +1,11 @@
+{
+  "firstname": "Norberto",
+  "lastname": "Marquardt",
+  "totalprice": "5707",
+  "depositpaid": "true",
+  "bookingdates": {
+    "checkin": "2026-10-16",
+    "checkout": "2026-12-15"
+  },
+  "additionalneeds": "Airport transfer"
+}
