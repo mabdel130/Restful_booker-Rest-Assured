@@ -1,0 +1,10 @@
+{
+  "firstname": "Philip",
+  "lastname": "Dickens",
+  "totalprice": "81",
+  "depositpaid": "false",
+  "bookingdates": {
+    "checkin": "2026-08-19",
+    "checkout": "2026-08-21"
+  }
+}
