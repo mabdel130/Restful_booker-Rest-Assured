@@ -1,0 +1,11 @@
+{
+  "firstname": "Garfield",
+  "lastname": "Walsh",
+  "totalprice": "255",
+  "depositpaid": "true",
+  "bookingdates": {
+    "checkin": "2026-08-26",
+    "checkout": "2026-09-02"
+  },
+  "additionalneeds": "Salmon Nigiri"
+}
