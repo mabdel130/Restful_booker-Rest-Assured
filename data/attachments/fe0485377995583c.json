@@ -1,0 +1,10 @@
+{
+  "firstname": "Michal",
+  "lastname": "Luettgen",
+  "totalprice": "64",
+  "depositpaid": "false",
+  "bookingdates": {
+    "checkin": "2026-08-21",
+    "checkout": "2026-08-23"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "firstname": "Jude",
+  "lastname": "Aufderhar",
+  "totalprice": "8665",
+  "depositpaid": "true",
+  "bookingdates": {
+    "checkin": "2026-10-19",
+    "checkout": "2026-12-18"
+  },
+  "additionalneeds": "Airport transfer"
+}
