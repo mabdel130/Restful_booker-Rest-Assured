@@ -1,0 +1,10 @@
+{
+  "firstname": "Cornell",
+  "lastname": "Kuhic",
+  "totalprice": "73",
+  "depositpaid": "false",
+  "bookingdates": {
+    "checkin": "2026-08-22",
+    "checkout": "2026-08-24"
+  }
+}

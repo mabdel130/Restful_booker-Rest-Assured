@@ -1,0 +1,11 @@
+{
+  "firstname": "Isela",
+  "lastname": "Harber",
+  "totalprice": "7540",
+  "depositpaid": "true",
+  "bookingdates": {
+    "checkin": "2026-10-20",
+    "checkout": "2026-12-19"
+  },
+  "additionalneeds": "Airport transfer"
+}

@@ -1,0 +1,11 @@
+{
+  "firstname": "Jeffery",
+  "lastname": "Lehner",
+  "totalprice": "2256",
+  "depositpaid": "false",
+  "bookingdates": {
+    "checkin": "2026-09-20",
+    "checkout": "2026-10-05"
+  },
+  "additionalneeds": "Late checkout"
+}
