@@ -1,0 +1,11 @@
+{
+  "firstname": "Kathaleen",
+  "lastname": "Lesch",
+  "totalprice": "4254",
+  "depositpaid": "true",
+  "bookingdates": {
+    "checkin": "2026-09-21",
+    "checkout": "2026-10-06"
+  },
+  "additionalneeds": "Late checkout"
+}
