@@ -1,0 +1,11 @@
+{
+  "firstname": "Lino",
+  "lastname": "Conn",
+  "totalprice": "781",
+  "depositpaid": "true",
+  "bookingdates": {
+    "checkin": "2026-08-30",
+    "checkout": "2026-09-06"
+  },
+  "additionalneeds": "Chilli con Carne"
+}

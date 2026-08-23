@@ -1,0 +1,11 @@
+{
+  "firstname": "Leland",
+  "lastname": "Berge",
+  "totalprice": "6200",
+  "depositpaid": "true",
+  "bookingdates": {
+    "checkin": "2026-10-22",
+    "checkout": "2026-12-21"
+  },
+  "additionalneeds": "Airport transfer"
+}
