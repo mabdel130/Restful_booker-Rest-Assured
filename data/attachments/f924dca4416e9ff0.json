@@ -1,0 +1,10 @@
+{
+  "firstname": "Florencia",
+  "lastname": "Deckow",
+  "totalprice": "98",
+  "depositpaid": "false",
+  "bookingdates": {
+    "checkin": "2026-08-27",
+    "checkout": "2026-08-29"
+  }
+}

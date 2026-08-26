@@ -1,0 +1,11 @@
+{
+  "firstname": "Tasha",
+  "lastname": "Grady",
+  "totalprice": "700",
+  "depositpaid": "true",
+  "bookingdates": {
+    "checkin": "2026-09-02",
+    "checkout": "2026-09-09"
+  },
+  "additionalneeds": "Fish and Chips"
+}

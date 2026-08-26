@@ -1,1 +1,1 @@
-[{"values":["https://restful-booker.herokuapp.com"],"name":"Base.URI"},{"values":["all"],"name":"Cucumber.Tags"},{"values":["qa"],"name":"Environment"},{"values":["21.0.12"],"name":"Java.Version"},{"values":["Linux"],"name":"OS"},{"values":["4"],"name":"Thread.Count"}]
+[{"values":["https://restful-booker.herokuapp.com"],"name":"Base.URI"},{"values":["all"],"name":"Cucumber.Tags"},{"values":["qa"],"name":"Environment"},{"values":["21.0.12.1"],"name":"Java.Version"},{"values":["Linux"],"name":"OS"},{"values":["4"],"name":"Thread.Count"}]
