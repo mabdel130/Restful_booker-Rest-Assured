@@ -1,0 +1,11 @@
+{
+  "firstname": "Chas",
+  "lastname": "Crooks",
+  "totalprice": "194",
+  "depositpaid": "true",
+  "bookingdates": {
+    "checkin": "2026-09-03",
+    "checkout": "2026-09-10"
+  },
+  "additionalneeds": "Barbecue Ribs"
+}

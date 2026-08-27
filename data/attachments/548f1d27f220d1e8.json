@@ -1,0 +1,11 @@
+{
+  "firstname": "Alaine",
+  "lastname": "O'Keefe",
+  "totalprice": "7846",
+  "depositpaid": "true",
+  "bookingdates": {
+    "checkin": "2026-10-26",
+    "checkout": "2026-12-25"
+  },
+  "additionalneeds": "Airport transfer"
+}
