@@ -1,0 +1,11 @@
+{
+  "firstname": "Earlean",
+  "lastname": "Vandervort",
+  "totalprice": "4118",
+  "depositpaid": "true",
+  "bookingdates": {
+    "checkin": "2026-10-27",
+    "checkout": "2026-12-26"
+  },
+  "additionalneeds": "Airport transfer"
+}
