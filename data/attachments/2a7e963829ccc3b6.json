@@ -1,0 +1,10 @@
+{
+  "firstname": "Chantelle",
+  "lastname": "Ebert",
+  "totalprice": "142",
+  "depositpaid": "false",
+  "bookingdates": {
+    "checkin": "2026-08-30",
+    "checkout": "2026-09-01"
+  }
+}

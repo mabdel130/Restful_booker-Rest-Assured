@@ -1,0 +1,11 @@
+{
+  "firstname": "Myles",
+  "lastname": "Bednar",
+  "totalprice": "4462",
+  "depositpaid": "false",
+  "bookingdates": {
+    "checkin": "2026-09-28",
+    "checkout": "2026-10-13"
+  },
+  "additionalneeds": "Late checkout"
+}

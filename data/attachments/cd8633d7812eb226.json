@@ -1,0 +1,10 @@
+{
+  "firstname": "Muoi",
+  "lastname": "Barrows",
+  "totalprice": "89",
+  "depositpaid": "false",
+  "bookingdates": {
+    "checkin": "2026-08-30",
+    "checkout": "2026-09-01"
+  }
+}

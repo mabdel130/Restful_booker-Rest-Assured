@@ -1,0 +1,11 @@
+{
+  "firstname": "Hubert",
+  "lastname": "Lang",
+  "totalprice": "782",
+  "depositpaid": "true",
+  "bookingdates": {
+    "checkin": "2026-09-05",
+    "checkout": "2026-09-12"
+  },
+  "additionalneeds": "Poke"
+}
