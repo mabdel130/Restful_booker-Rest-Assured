@@ -1,0 +1,11 @@
+{
+  "firstname": "Johanna",
+  "lastname": "Ferry",
+  "totalprice": "1112",
+  "depositpaid": "false",
+  "bookingdates": {
+    "checkin": "2026-09-29",
+    "checkout": "2026-10-14"
+  },
+  "additionalneeds": "Late checkout"
+}

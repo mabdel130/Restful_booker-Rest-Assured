@@ -1,0 +1,11 @@
+{
+  "firstname": "Genesis",
+  "lastname": "Deckow",
+  "totalprice": "7991",
+  "depositpaid": "true",
+  "bookingdates": {
+    "checkin": "2026-10-29",
+    "checkout": "2026-12-28"
+  },
+  "additionalneeds": "Airport transfer"
+}
