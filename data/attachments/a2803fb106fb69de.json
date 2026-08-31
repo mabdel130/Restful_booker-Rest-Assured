@@ -1,0 +1,11 @@
+{
+  "firstname": "Celine",
+  "lastname": "Kuvalis",
+  "totalprice": "3587",
+  "depositpaid": "false",
+  "bookingdates": {
+    "checkin": "2026-09-30",
+    "checkout": "2026-10-15"
+  },
+  "additionalneeds": "Late checkout"
+}

@@ -1,0 +1,11 @@
+{
+  "firstname": "Nikole",
+  "lastname": "Crooks",
+  "totalprice": "396",
+  "depositpaid": "true",
+  "bookingdates": {
+    "checkin": "2026-09-07",
+    "checkout": "2026-09-14"
+  },
+  "additionalneeds": "Poutine"
+}
