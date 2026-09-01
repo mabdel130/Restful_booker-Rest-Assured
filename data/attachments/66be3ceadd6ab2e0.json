@@ -1,0 +1,11 @@
+{
+  "firstname": "Dallas",
+  "lastname": "Kilback",
+  "totalprice": "898",
+  "depositpaid": "false",
+  "bookingdates": {
+    "checkin": "2026-09-08",
+    "checkout": "2026-09-15"
+  },
+  "additionalneeds": "Caesar Salad"
+}

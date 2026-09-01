@@ -1,0 +1,11 @@
+{
+  "firstname": "Shari",
+  "lastname": "Weissnat",
+  "totalprice": "1019",
+  "depositpaid": "true",
+  "bookingdates": {
+    "checkin": "2026-10-01",
+    "checkout": "2026-10-16"
+  },
+  "additionalneeds": "Late checkout"
+}

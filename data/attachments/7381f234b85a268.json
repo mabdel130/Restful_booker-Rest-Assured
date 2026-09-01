@@ -1,0 +1,11 @@
+{
+  "firstname": "Many",
+  "lastname": "Daugherty",
+  "totalprice": "237",
+  "depositpaid": "false",
+  "bookingdates": {
+    "checkin": "2026-09-08",
+    "checkout": "2026-09-15"
+  },
+  "additionalneeds": "Bruschette with Tomato"
+}

@@ -1,0 +1,10 @@
+{
+  "firstname": "Malvina",
+  "lastname": "Romaguera",
+  "totalprice": "142",
+  "depositpaid": "false",
+  "bookingdates": {
+    "checkin": "2026-09-02",
+    "checkout": "2026-09-04"
+  }
+}
