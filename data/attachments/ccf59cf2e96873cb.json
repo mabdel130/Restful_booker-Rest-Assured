@@ -1,0 +1,10 @@
+{
+  "firstname": "Fransisca",
+  "lastname": "Romaguera",
+  "totalprice": "126",
+  "depositpaid": "false",
+  "bookingdates": {
+    "checkin": "2026-09-03",
+    "checkout": "2026-09-05"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "firstname": "Lamar",
+  "lastname": "Koch",
+  "totalprice": "316",
+  "depositpaid": "true",
+  "bookingdates": {
+    "checkin": "2026-09-09",
+    "checkout": "2026-09-16"
+  },
+  "additionalneeds": "French Fries with Sausages"
+}

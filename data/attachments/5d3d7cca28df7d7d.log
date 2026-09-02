@@ -1,0 +1,19 @@
+06:54:59.480 [TestNG-PoolService-4] INFO  Hooks - ### SCENARIO START: Create a booking from payload "booking-long-stay.json"
+06:54:59.485 [TestNG-PoolService-4] INFO  JsonDataReader - Loaded test data 'booking-long-stay.json' with dynamic values resolved
+06:54:59.486 [TestNG-PoolService-4] DEBUG BookingSteps - Payload from test data file booking-long-stay.json: Booking(firstname=Nickolas, lastname=Mills, totalprice=4429, depositpaid=true, bookingdates=BookingDates(checkin=2026-11-01, checkout=2026-12-31), additionalneeds=Airport transfer)
+06:54:59.487 [TestNG-PoolService-4] INFO  RestClient - --> POST /booking
+06:54:59.552 [TestNG-PoolService-4] INFO  RestClient - <-- POST /booking responded 200 in 65 ms
+06:54:59.553 [TestNG-PoolService-4] INFO  ApiAssertions - Asserting status code is 200
+06:54:59.553 [TestNG-PoolService-4] INFO  ApiAssertions - Asserting content type is JSON
+06:54:59.553 [TestNG-PoolService-4] INFO  ApiAssertions - Asserting body is not empty
+06:54:59.619 [TestNG-PoolService-4] INFO  ApiAssertions - Asserting field 'bookingid' is present
+06:54:59.619 [TestNG-PoolService-4] INFO  ApiAssertions - Asserting response time 38ms is below 30000ms
+06:54:59.635 [TestNG-PoolService-4] INFO  BookingSteps - Created booking id 2302
+06:54:59.636 [TestNG-PoolService-4] INFO  ApiAssertions - Asserting content type is JSON
+06:54:59.653 [TestNG-PoolService-4] INFO  BookingSteps - Response conforms to schema create-booking-schema.json
+06:54:59.653 [TestNG-PoolService-4] INFO  Hooks - Cleaning up booking 2302
+06:54:59.655 [TestNG-PoolService-4] INFO  RestClient - --> POST /auth
+06:54:59.707 [TestNG-PoolService-4] INFO  RestClient - <-- POST /auth responded 200 in 51 ms
+06:54:59.712 [TestNG-PoolService-4] INFO  RestClient - --> DELETE /booking/{id}
+06:54:59.776 [TestNG-PoolService-4] INFO  RestClient - <-- DELETE /booking/{id} responded 201 in 64 ms
+06:54:59.777 [TestNG-PoolService-4] INFO  Hooks - ### SCENARIO END: Create a booking from payload "booking-long-stay.json" -> PASSED

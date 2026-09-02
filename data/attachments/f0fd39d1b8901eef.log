@@ -1,0 +1,19 @@
+06:54:58.684 [TestNG-PoolService-3] INFO  Hooks - ### SCENARIO START: Create a booking from payload "booking-no-additional-needs.json"
+06:54:58.866 [TestNG-PoolService-3] INFO  JsonDataReader - Loaded test data 'booking-no-additional-needs.json' with dynamic values resolved
+06:54:58.887 [TestNG-PoolService-3] DEBUG BookingSteps - Payload from test data file booking-no-additional-needs.json: Booking(firstname=Milton, lastname=Wiza, totalprice=85, depositpaid=false, bookingdates=BookingDates(checkin=2026-09-03, checkout=2026-09-05), additionalneeds=null)
+06:54:58.893 [TestNG-PoolService-3] INFO  RestClient - --> POST /booking
+06:54:58.963 [TestNG-PoolService-3] INFO  RestClient - <-- POST /booking responded 200 in 70 ms
+06:54:58.967 [TestNG-PoolService-3] INFO  ApiAssertions - Asserting status code is 200
+06:54:58.967 [TestNG-PoolService-3] INFO  ApiAssertions - Asserting content type is JSON
+06:54:58.968 [TestNG-PoolService-3] INFO  ApiAssertions - Asserting body is not empty
+06:54:58.989 [TestNG-PoolService-3] INFO  ApiAssertions - Asserting field 'bookingid' is present
+06:54:58.989 [TestNG-PoolService-3] INFO  ApiAssertions - Asserting response time 33ms is below 30000ms
+06:54:58.996 [TestNG-PoolService-3] INFO  BookingSteps - Created booking id 2294
+06:54:59.010 [TestNG-PoolService-3] INFO  ApiAssertions - Asserting content type is JSON
+06:54:59.435 [TestNG-PoolService-3] INFO  BookingSteps - Response conforms to schema create-booking-schema.json
+06:54:59.435 [TestNG-PoolService-3] INFO  Hooks - Cleaning up booking 2294
+06:54:59.437 [TestNG-PoolService-3] INFO  RestClient - --> POST /auth
+06:54:59.496 [TestNG-PoolService-3] INFO  RestClient - <-- POST /auth responded 200 in 59 ms
+06:54:59.498 [TestNG-PoolService-3] INFO  RestClient - --> DELETE /booking/{id}
+06:54:59.554 [TestNG-PoolService-3] INFO  RestClient - <-- DELETE /booking/{id} responded 201 in 52 ms
+06:54:59.555 [TestNG-PoolService-3] INFO  Hooks - ### SCENARIO END: Create a booking from payload "booking-no-additional-needs.json" -> PASSED

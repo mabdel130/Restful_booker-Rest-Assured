@@ -1,0 +1,11 @@
+{
+  "firstname": "Keira",
+  "lastname": "Mann",
+  "totalprice": "872",
+  "depositpaid": "false",
+  "bookingdates": {
+    "checkin": "2026-09-09",
+    "checkout": "2026-09-16"
+  },
+  "additionalneeds": "Caesar Salad"
+}
