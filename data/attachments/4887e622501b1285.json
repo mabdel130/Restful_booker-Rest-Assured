@@ -1,0 +1,11 @@
+{
+  "firstname": "Zella",
+  "lastname": "Gorczany",
+  "totalprice": "761",
+  "depositpaid": "true",
+  "bookingdates": {
+    "checkin": "2026-09-10",
+    "checkout": "2026-09-17"
+  },
+  "additionalneeds": "Som Tam"
+}

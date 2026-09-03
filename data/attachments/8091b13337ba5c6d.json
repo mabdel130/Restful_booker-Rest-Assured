@@ -1,0 +1,11 @@
+{
+  "firstname": "Delilah",
+  "lastname": "Lind",
+  "totalprice": "270",
+  "depositpaid": "true",
+  "bookingdates": {
+    "checkin": "2026-09-10",
+    "checkout": "2026-09-17"
+  },
+  "additionalneeds": "Chicken Fajitas"
+}

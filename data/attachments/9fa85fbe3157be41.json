@@ -1,0 +1,10 @@
+{
+  "firstname": "Tanner",
+  "lastname": "Wisoky",
+  "totalprice": "76",
+  "depositpaid": "false",
+  "bookingdates": {
+    "checkin": "2026-09-04",
+    "checkout": "2026-09-06"
+  }
+}
