@@ -1,0 +1,11 @@
+{
+  "firstname": "Ping",
+  "lastname": "Kshlerin",
+  "totalprice": "3882",
+  "depositpaid": "false",
+  "bookingdates": {
+    "checkin": "2026-10-04",
+    "checkout": "2026-10-19"
+  },
+  "additionalneeds": "Late checkout"
+}
