@@ -1,0 +1,11 @@
+{
+  "firstname": "Rima",
+  "lastname": "Witting",
+  "totalprice": "8387",
+  "depositpaid": "true",
+  "bookingdates": {
+    "checkin": "2026-11-04",
+    "checkout": "2027-01-03"
+  },
+  "additionalneeds": "Airport transfer"
+}

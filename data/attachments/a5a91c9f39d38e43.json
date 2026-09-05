@@ -1,0 +1,11 @@
+{
+  "firstname": "Antonina",
+  "lastname": "Luettgen",
+  "totalprice": "8008",
+  "depositpaid": "true",
+  "bookingdates": {
+    "checkin": "2026-11-04",
+    "checkout": "2027-01-03"
+  },
+  "additionalneeds": "Airport transfer"
+}

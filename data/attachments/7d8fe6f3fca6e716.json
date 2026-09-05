@@ -1,0 +1,11 @@
+{
+  "firstname": "Wilber",
+  "lastname": "Berge",
+  "totalprice": "266",
+  "depositpaid": "false",
+  "bookingdates": {
+    "checkin": "2026-09-12",
+    "checkout": "2026-09-19"
+  },
+  "additionalneeds": "Chicken Wings"
+}

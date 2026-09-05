@@ -1,0 +1,11 @@
+{
+  "firstname": "Kay",
+  "lastname": "Greenholt",
+  "totalprice": "1325",
+  "depositpaid": "true",
+  "bookingdates": {
+    "checkin": "2026-10-05",
+    "checkout": "2026-10-20"
+  },
+  "additionalneeds": "Late checkout"
+}
