@@ -1,0 +1,11 @@
+{
+  "firstname": "Wallace",
+  "lastname": "Larson",
+  "totalprice": "1066",
+  "depositpaid": "false",
+  "bookingdates": {
+    "checkin": "2026-10-06",
+    "checkout": "2026-10-21"
+  },
+  "additionalneeds": "Late checkout"
+}

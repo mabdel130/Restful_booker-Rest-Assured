@@ -1,0 +1,11 @@
+{
+  "firstname": "Horace",
+  "lastname": "Collier",
+  "totalprice": "165",
+  "depositpaid": "true",
+  "bookingdates": {
+    "checkin": "2026-09-13",
+    "checkout": "2026-09-20"
+  },
+  "additionalneeds": "Massaman Curry"
+}
