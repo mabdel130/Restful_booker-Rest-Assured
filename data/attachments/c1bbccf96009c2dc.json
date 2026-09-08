@@ -1,0 +1,11 @@
+{
+  "firstname": "Eleanore",
+  "lastname": "Gorczany",
+  "totalprice": "4440",
+  "depositpaid": "false",
+  "bookingdates": {
+    "checkin": "2026-10-08",
+    "checkout": "2026-10-23"
+  },
+  "additionalneeds": "Late checkout"
+}

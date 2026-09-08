@@ -1,0 +1,10 @@
+{
+  "firstname": "Elvis",
+  "lastname": "Cronin",
+  "totalprice": "122",
+  "depositpaid": "false",
+  "bookingdates": {
+    "checkin": "2026-09-09",
+    "checkout": "2026-09-11"
+  }
+}
