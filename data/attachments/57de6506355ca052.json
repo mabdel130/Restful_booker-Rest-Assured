@@ -1,0 +1,11 @@
+{
+  "firstname": "Carmina",
+  "lastname": "Baumbach",
+  "totalprice": "107",
+  "depositpaid": "true",
+  "bookingdates": {
+    "checkin": "2026-09-16",
+    "checkout": "2026-09-23"
+  },
+  "additionalneeds": "Chicken Fajitas"
+}

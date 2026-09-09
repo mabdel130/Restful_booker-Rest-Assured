@@ -1,0 +1,7 @@
+07:10:20.378 [TestNG-PoolService-2] INFO  Hooks - ### SCENARIO START: Ping health check responds
+07:10:20.378 [TestNG-PoolService-2] INFO  CommonSteps - Pinging the API health endpoint
+07:10:20.381 [TestNG-PoolService-2] INFO  RestClient - --> GET /ping
+07:10:20.433 [TestNG-PoolService-2] INFO  RestClient - <-- GET /ping responded 201 in 52 ms
+07:10:20.434 [TestNG-PoolService-2] INFO  ApiAssertions - Asserting status code is 201
+07:10:20.434 [TestNG-PoolService-2] INFO  ApiAssertions - Asserting response time 44ms is below 30000ms
+07:10:20.437 [TestNG-PoolService-2] INFO  Hooks - ### SCENARIO END: Ping health check responds -> PASSED
