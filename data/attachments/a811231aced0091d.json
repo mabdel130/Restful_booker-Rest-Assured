@@ -1,0 +1,11 @@
+{
+  "firstname": "Isreal",
+  "lastname": "Connelly",
+  "totalprice": "8624",
+  "depositpaid": "true",
+  "bookingdates": {
+    "checkin": "2026-11-10",
+    "checkout": "2027-01-09"
+  },
+  "additionalneeds": "Airport transfer"
+}

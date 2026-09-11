@@ -1,0 +1,11 @@
+{
+  "firstname": "Adan",
+  "lastname": "Nienow",
+  "totalprice": "194",
+  "depositpaid": "true",
+  "bookingdates": {
+    "checkin": "2026-09-18",
+    "checkout": "2026-09-25"
+  },
+  "additionalneeds": "Cheeseburger"
+}
