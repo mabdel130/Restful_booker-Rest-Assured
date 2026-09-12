@@ -1,0 +1,11 @@
+{
+  "firstname": "Osvaldo",
+  "lastname": "Weimann",
+  "totalprice": "715",
+  "depositpaid": "true",
+  "bookingdates": {
+    "checkin": "2026-09-19",
+    "checkout": "2026-09-26"
+  },
+  "additionalneeds": "Massaman Curry"
+}

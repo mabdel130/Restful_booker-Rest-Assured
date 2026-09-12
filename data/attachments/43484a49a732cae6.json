@@ -1,0 +1,11 @@
+{
+  "firstname": "Bobbie",
+  "lastname": "White",
+  "totalprice": "198",
+  "depositpaid": "true",
+  "bookingdates": {
+    "checkin": "2026-09-19",
+    "checkout": "2026-09-26"
+  },
+  "additionalneeds": "Chicken Milanese"
+}
