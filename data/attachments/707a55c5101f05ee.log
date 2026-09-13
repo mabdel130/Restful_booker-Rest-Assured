@@ -1,0 +1,11 @@
+07:16:41.448 [TestNG-PoolService-4] INFO  Hooks - ### SCENARIO START: Authentication is rejected for "empty credentials"
+07:16:41.594 [TestNG-PoolService-4] INFO  AuthSteps - Requesting auth token for user ''
+07:16:42.380 [TestNG-PoolService-4] INFO  RestClient - --> POST /auth
+07:16:44.762 [TestNG-PoolService-4] INFO  RestClient - <-- POST /auth responded 200 in 2382 ms
+07:16:44.771 [TestNG-PoolService-4] INFO  ApiAssertions - Asserting status code is 200
+07:16:44.781 [TestNG-PoolService-4] INFO  ApiAssertions - Asserting response time 999ms is below 30000ms
+07:16:44.782 [TestNG-PoolService-4] INFO  ApiAssertions - Asserting status code is 200
+07:16:44.782 [TestNG-PoolService-4] INFO  ApiAssertions - Asserting content type is JSON
+07:16:45.494 [TestNG-PoolService-4] INFO  ApiAssertions - Asserting field 'reason' equals Bad credentials
+07:16:45.540 [TestNG-PoolService-4] INFO  AuthSteps - Authentication correctly rejected: Bad credentials
+07:16:45.545 [TestNG-PoolService-4] INFO  Hooks - ### SCENARIO END: Authentication is rejected for "empty credentials" -> PASSED

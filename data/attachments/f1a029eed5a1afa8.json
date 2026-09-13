@@ -1,0 +1,11 @@
+{
+  "firstname": "Dorathy",
+  "lastname": "Borer",
+  "totalprice": "4576",
+  "depositpaid": "true",
+  "bookingdates": {
+    "checkin": "2026-10-13",
+    "checkout": "2026-10-28"
+  },
+  "additionalneeds": "Late checkout"
+}
