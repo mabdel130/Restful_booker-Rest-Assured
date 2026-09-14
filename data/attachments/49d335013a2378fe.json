@@ -1,0 +1,11 @@
+{
+  "firstname": "Bebe",
+  "lastname": "Durgan",
+  "totalprice": "4017",
+  "depositpaid": "true",
+  "bookingdates": {
+    "checkin": "2026-11-13",
+    "checkout": "2027-01-12"
+  },
+  "additionalneeds": "Airport transfer"
+}
