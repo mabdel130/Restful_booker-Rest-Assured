@@ -1,0 +1,11 @@
+{
+  "firstname": "Lessie",
+  "lastname": "Koelpin",
+  "totalprice": "350",
+  "depositpaid": "true",
+  "bookingdates": {
+    "checkin": "2026-09-22",
+    "checkout": "2026-09-29"
+  },
+  "additionalneeds": "Kebab"
+}
