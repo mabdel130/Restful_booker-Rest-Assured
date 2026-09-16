@@ -1,0 +1,11 @@
+{
+  "firstname": "Shirley",
+  "lastname": "Ruecker",
+  "totalprice": "4860",
+  "depositpaid": "false",
+  "bookingdates": {
+    "checkin": "2026-10-16",
+    "checkout": "2026-10-31"
+  },
+  "additionalneeds": "Late checkout"
+}
