@@ -1,0 +1,11 @@
+{
+  "firstname": "Jefferey",
+  "lastname": "Wilderman",
+  "totalprice": "713",
+  "depositpaid": "true",
+  "bookingdates": {
+    "checkin": "2026-09-24",
+    "checkout": "2026-10-01"
+  },
+  "additionalneeds": "Cauliflower Penne"
+}

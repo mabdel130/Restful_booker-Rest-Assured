@@ -1,0 +1,19 @@
+07:19:47.920 [TestNG-PoolService-2] INFO  Hooks - ### SCENARIO START: Create a booking from payload "booking-long-stay.json"
+07:19:47.920 [TestNG-PoolService-2] INFO  JsonDataReader - Loaded test data 'booking-long-stay.json' with dynamic values resolved
+07:19:47.921 [TestNG-PoolService-2] DEBUG BookingSteps - Payload from test data file booking-long-stay.json: Booking(firstname=Jeri, lastname=Witting, totalprice=6538, depositpaid=true, bookingdates=BookingDates(checkin=2026-11-16, checkout=2027-01-15), additionalneeds=Airport transfer)
+07:19:47.922 [TestNG-PoolService-2] INFO  RestClient - --> POST /booking
+07:19:48.090 [TestNG-PoolService-2] INFO  RestClient - <-- POST /booking responded 200 in 168 ms
+07:19:48.093 [TestNG-PoolService-2] INFO  ApiAssertions - Asserting status code is 200
+07:19:48.093 [TestNG-PoolService-2] INFO  ApiAssertions - Asserting content type is JSON
+07:19:48.093 [TestNG-PoolService-2] INFO  ApiAssertions - Asserting body is not empty
+07:19:48.107 [TestNG-PoolService-2] INFO  ApiAssertions - Asserting field 'bookingid' is present
+07:19:48.107 [TestNG-PoolService-2] INFO  ApiAssertions - Asserting response time 153ms is below 30000ms
+07:19:48.109 [TestNG-PoolService-2] INFO  BookingSteps - Created booking id 4672
+07:19:48.110 [TestNG-PoolService-2] INFO  ApiAssertions - Asserting content type is JSON
+07:19:48.120 [TestNG-PoolService-2] INFO  BookingSteps - Response conforms to schema create-booking-schema.json
+07:19:48.120 [TestNG-PoolService-2] INFO  Hooks - Cleaning up booking 4672
+07:19:48.121 [TestNG-PoolService-2] INFO  RestClient - --> POST /auth
+07:19:48.272 [TestNG-PoolService-2] INFO  RestClient - <-- POST /auth responded 200 in 151 ms
+07:19:48.274 [TestNG-PoolService-2] INFO  RestClient - --> DELETE /booking/{id}
+07:19:48.425 [TestNG-PoolService-2] INFO  RestClient - <-- DELETE /booking/{id} responded 201 in 151 ms
+07:19:48.425 [TestNG-PoolService-2] INFO  Hooks - ### SCENARIO END: Create a booking from payload "booking-long-stay.json" -> PASSED

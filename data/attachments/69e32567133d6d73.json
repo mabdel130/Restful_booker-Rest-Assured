@@ -1,0 +1,10 @@
+{
+  "firstname": "Tora",
+  "lastname": "Ledner",
+  "totalprice": "62",
+  "depositpaid": "false",
+  "bookingdates": {
+    "checkin": "2026-09-18",
+    "checkout": "2026-09-20"
+  }
+}
