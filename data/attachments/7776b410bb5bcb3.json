@@ -1,0 +1,11 @@
+{
+  "firstname": "Peter",
+  "lastname": "Greenfelder",
+  "totalprice": "327",
+  "depositpaid": "true",
+  "bookingdates": {
+    "checkin": "2026-09-25",
+    "checkout": "2026-10-02"
+  },
+  "additionalneeds": "Hummus"
+}
