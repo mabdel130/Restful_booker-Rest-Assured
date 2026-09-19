@@ -1,0 +1,11 @@
+{
+  "firstname": "Aubrey",
+  "lastname": "White",
+  "totalprice": "539",
+  "depositpaid": "false",
+  "bookingdates": {
+    "checkin": "2026-09-26",
+    "checkout": "2026-10-03"
+  },
+  "additionalneeds": "Stinky Tofu"
+}

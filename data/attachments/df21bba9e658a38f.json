@@ -1,0 +1,11 @@
+{
+  "firstname": "Jaimee",
+  "lastname": "Paucek",
+  "totalprice": "695",
+  "depositpaid": "false",
+  "bookingdates": {
+    "checkin": "2026-09-26",
+    "checkout": "2026-10-03"
+  },
+  "additionalneeds": "Sushi"
+}
