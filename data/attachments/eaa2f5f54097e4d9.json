@@ -1,0 +1,11 @@
+{
+  "firstname": "Brooks",
+  "lastname": "Lindgren",
+  "totalprice": "821",
+  "depositpaid": "true",
+  "bookingdates": {
+    "checkin": "2026-09-27",
+    "checkout": "2026-10-04"
+  },
+  "additionalneeds": "Bunny Chow"
+}
