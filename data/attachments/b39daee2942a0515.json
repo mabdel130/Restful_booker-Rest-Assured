@@ -1,0 +1,11 @@
+{
+  "firstname": "Bryce",
+  "lastname": "Powlowski",
+  "totalprice": "1899",
+  "depositpaid": "true",
+  "bookingdates": {
+    "checkin": "2026-10-21",
+    "checkout": "2026-11-05"
+  },
+  "additionalneeds": "Late checkout"
+}
