@@ -1,0 +1,11 @@
+{
+  "firstname": "Marlys",
+  "lastname": "Konopelski",
+  "totalprice": "5636",
+  "depositpaid": "true",
+  "bookingdates": {
+    "checkin": "2026-11-22",
+    "checkout": "2027-01-21"
+  },
+  "additionalneeds": "Airport transfer"
+}
