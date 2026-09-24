@@ -1,0 +1,11 @@
+{
+  "firstname": "Leon",
+  "lastname": "West",
+  "totalprice": "458",
+  "depositpaid": "false",
+  "bookingdates": {
+    "checkin": "2026-10-01",
+    "checkout": "2026-10-08"
+  },
+  "additionalneeds": "French Fries with Sausages"
+}

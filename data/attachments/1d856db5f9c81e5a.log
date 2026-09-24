@@ -1,0 +1,11 @@
+07:22:43.327 [TestNG-PoolService-2] INFO  Hooks - ### SCENARIO START: Authentication is rejected for "wrong password"
+07:22:43.486 [TestNG-PoolService-2] INFO  AuthSteps - Requesting auth token for user 'admin'
+07:22:44.179 [TestNG-PoolService-2] INFO  RestClient - --> POST /auth
+07:22:46.455 [TestNG-PoolService-2] INFO  RestClient - <-- POST /auth responded 200 in 2276 ms
+07:22:46.463 [TestNG-PoolService-2] INFO  ApiAssertions - Asserting status code is 200
+07:22:46.472 [TestNG-PoolService-2] INFO  ApiAssertions - Asserting response time 899ms is below 30000ms
+07:22:46.474 [TestNG-PoolService-2] INFO  ApiAssertions - Asserting status code is 200
+07:22:46.475 [TestNG-PoolService-2] INFO  ApiAssertions - Asserting content type is JSON
+07:22:47.188 [TestNG-PoolService-2] INFO  ApiAssertions - Asserting field 'reason' equals Bad credentials
+07:22:47.240 [TestNG-PoolService-2] INFO  AuthSteps - Authentication correctly rejected: Bad credentials
+07:22:47.247 [TestNG-PoolService-2] INFO  Hooks - ### SCENARIO END: Authentication is rejected for "wrong password" -> PASSED
