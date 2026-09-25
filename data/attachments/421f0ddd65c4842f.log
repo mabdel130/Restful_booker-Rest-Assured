@@ -1,0 +1,19 @@
+07:17:31.981 [TestNG-PoolService-3] INFO  Hooks - ### SCENARIO START: Create a booking from payload "booking-no-additional-needs.json"
+07:17:32.083 [TestNG-PoolService-3] INFO  JsonDataReader - Loaded test data 'booking-no-additional-needs.json' with dynamic values resolved
+07:17:32.107 [TestNG-PoolService-3] DEBUG BookingSteps - Payload from test data file booking-no-additional-needs.json: Booking(firstname=Jacki, lastname=Kohler, totalprice=75, depositpaid=false, bookingdates=BookingDates(checkin=2026-09-26, checkout=2026-09-28), additionalneeds=null)
+07:17:32.108 [TestNG-PoolService-3] INFO  RestClient - --> POST /booking
+07:17:32.244 [TestNG-PoolService-3] INFO  RestClient - <-- POST /booking responded 200 in 136 ms
+07:17:32.245 [TestNG-PoolService-3] INFO  ApiAssertions - Asserting status code is 200
+07:17:32.245 [TestNG-PoolService-3] INFO  ApiAssertions - Asserting content type is JSON
+07:17:32.245 [TestNG-PoolService-3] INFO  ApiAssertions - Asserting body is not empty
+07:17:32.257 [TestNG-PoolService-3] INFO  ApiAssertions - Asserting field 'bookingid' is present
+07:17:32.257 [TestNG-PoolService-3] INFO  ApiAssertions - Asserting response time 98ms is below 30000ms
+07:17:32.262 [TestNG-PoolService-3] INFO  BookingSteps - Created booking id 3422
+07:17:32.263 [TestNG-PoolService-3] INFO  ApiAssertions - Asserting content type is JSON
+07:17:32.605 [TestNG-PoolService-3] INFO  BookingSteps - Response conforms to schema create-booking-schema.json
+07:17:32.606 [TestNG-PoolService-3] INFO  Hooks - Cleaning up booking 3422
+07:17:32.608 [TestNG-PoolService-3] INFO  RestClient - --> POST /auth
+07:17:32.735 [TestNG-PoolService-3] INFO  RestClient - <-- POST /auth responded 200 in 127 ms
+07:17:32.740 [TestNG-PoolService-3] INFO  RestClient - --> DELETE /booking/{id}
+07:17:32.857 [TestNG-PoolService-3] INFO  RestClient - <-- DELETE /booking/{id} responded 201 in 117 ms
+07:17:32.858 [TestNG-PoolService-3] INFO  Hooks - ### SCENARIO END: Create a booking from payload "booking-no-additional-needs.json" -> PASSED
