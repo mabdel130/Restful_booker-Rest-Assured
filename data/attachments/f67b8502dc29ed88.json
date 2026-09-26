@@ -1,0 +1,11 @@
+{
+  "firstname": "Miles",
+  "lastname": "Anderson",
+  "totalprice": "793",
+  "depositpaid": "true",
+  "bookingdates": {
+    "checkin": "2026-10-03",
+    "checkout": "2026-10-10"
+  },
+  "additionalneeds": "Philadelphia Maki"
+}
