@@ -1,0 +1,11 @@
+{
+  "firstname": "Maribeth",
+  "lastname": "Cummerata",
+  "totalprice": "321",
+  "depositpaid": "true",
+  "bookingdates": {
+    "checkin": "2026-10-04",
+    "checkout": "2026-10-11"
+  },
+  "additionalneeds": "Lasagne"
+}
