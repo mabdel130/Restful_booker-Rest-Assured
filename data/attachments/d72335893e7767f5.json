@@ -1,0 +1,11 @@
+{
+  "firstname": "Kelly",
+  "lastname": "Fahey",
+  "totalprice": "521",
+  "depositpaid": "false",
+  "bookingdates": {
+    "checkin": "2026-10-06",
+    "checkout": "2026-10-13"
+  },
+  "additionalneeds": "Scotch Eggs"
+}

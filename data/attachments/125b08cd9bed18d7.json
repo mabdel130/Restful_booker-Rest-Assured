@@ -1,0 +1,10 @@
+{
+  "firstname": "Sanjuana",
+  "lastname": "Altenwerth",
+  "totalprice": "114",
+  "depositpaid": "false",
+  "bookingdates": {
+    "checkin": "2026-09-30",
+    "checkout": "2026-10-02"
+  }
+}
