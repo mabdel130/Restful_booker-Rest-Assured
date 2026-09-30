@@ -1,0 +1,11 @@
+{
+  "firstname": "Belva",
+  "lastname": "Brown",
+  "totalprice": "1053",
+  "depositpaid": "false",
+  "bookingdates": {
+    "checkin": "2026-10-30",
+    "checkout": "2026-11-14"
+  },
+  "additionalneeds": "Late checkout"
+}
