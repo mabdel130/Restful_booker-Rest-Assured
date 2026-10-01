@@ -1,0 +1,10 @@
+{
+  "firstname": "Cyrus",
+  "lastname": "Watsica",
+  "totalprice": "143",
+  "depositpaid": "false",
+  "bookingdates": {
+    "checkin": "2026-10-02",
+    "checkout": "2026-10-04"
+  }
+}

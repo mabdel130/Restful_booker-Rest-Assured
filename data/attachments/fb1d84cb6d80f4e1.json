@@ -1,0 +1,10 @@
+{
+  "firstname": "Rodrick",
+  "lastname": "Balistreri",
+  "totalprice": "119",
+  "depositpaid": "false",
+  "bookingdates": {
+    "checkin": "2026-10-02",
+    "checkout": "2026-10-04"
+  }
+}
