@@ -1,0 +1,11 @@
+{
+  "firstname": "Mckinley",
+  "lastname": "Hayes",
+  "totalprice": "865",
+  "depositpaid": "false",
+  "bookingdates": {
+    "checkin": "2026-10-10",
+    "checkout": "2026-10-17"
+  },
+  "additionalneeds": "Scotch Eggs"
+}
