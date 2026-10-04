@@ -1,0 +1,11 @@
+{
+  "firstname": "Michiko",
+  "lastname": "Hagenes",
+  "totalprice": "314",
+  "depositpaid": "true",
+  "bookingdates": {
+    "checkin": "2026-10-11",
+    "checkout": "2026-10-18"
+  },
+  "additionalneeds": "Seafood Paella"
+}
