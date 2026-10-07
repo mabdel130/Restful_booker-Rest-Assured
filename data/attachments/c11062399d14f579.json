@@ -1,0 +1,11 @@
+{
+  "firstname": "Noble",
+  "lastname": "Hermann",
+  "totalprice": "664",
+  "depositpaid": "false",
+  "bookingdates": {
+    "checkin": "2026-10-14",
+    "checkout": "2026-10-21"
+  },
+  "additionalneeds": "Pork Sausage Roll"
+}
