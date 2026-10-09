@@ -1,0 +1,11 @@
+{
+  "firstname": "Jacques",
+  "lastname": "Wilderman",
+  "totalprice": "142",
+  "depositpaid": "false",
+  "bookingdates": {
+    "checkin": "2026-10-16",
+    "checkout": "2026-10-23"
+  },
+  "additionalneeds": "Pork Sausage Roll"
+}
