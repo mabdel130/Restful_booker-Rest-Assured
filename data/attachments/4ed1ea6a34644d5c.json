@@ -1,0 +1,11 @@
+{
+  "firstname": "Leonia",
+  "lastname": "Larkin",
+  "totalprice": "5491",
+  "depositpaid": "true",
+  "bookingdates": {
+    "checkin": "2026-12-09",
+    "checkout": "2027-02-07"
+  },
+  "additionalneeds": "Airport transfer"
+}

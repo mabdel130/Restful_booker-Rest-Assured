@@ -1,0 +1,11 @@
+{
+  "firstname": "Dalton",
+  "lastname": "Halvorson",
+  "totalprice": "2221",
+  "depositpaid": "false",
+  "bookingdates": {
+    "checkin": "2026-11-09",
+    "checkout": "2026-11-24"
+  },
+  "additionalneeds": "Late checkout"
+}

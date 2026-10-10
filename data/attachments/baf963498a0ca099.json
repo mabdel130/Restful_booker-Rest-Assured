@@ -1,0 +1,11 @@
+{
+  "firstname": "Wendi",
+  "lastname": "Block",
+  "totalprice": "169",
+  "depositpaid": "false",
+  "bookingdates": {
+    "checkin": "2026-10-17",
+    "checkout": "2026-10-24"
+  },
+  "additionalneeds": "Kebab"
+}

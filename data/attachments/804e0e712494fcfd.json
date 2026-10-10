@@ -1,0 +1,11 @@
+{
+  "firstname": "Ehtel",
+  "lastname": "Durgan",
+  "totalprice": "752",
+  "depositpaid": "true",
+  "bookingdates": {
+    "checkin": "2026-10-17",
+    "checkout": "2026-10-24"
+  },
+  "additionalneeds": "Chicken Parm"
+}

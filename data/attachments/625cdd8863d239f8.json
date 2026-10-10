@@ -1,0 +1,10 @@
+{
+  "firstname": "Vance",
+  "lastname": "Breitenberg",
+  "totalprice": "87",
+  "depositpaid": "false",
+  "bookingdates": {
+    "checkin": "2026-10-11",
+    "checkout": "2026-10-13"
+  }
+}

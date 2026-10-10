@@ -1,0 +1,10 @@
+{
+  "firstname": "Forest",
+  "lastname": "Champlin",
+  "totalprice": "141",
+  "depositpaid": "false",
+  "bookingdates": {
+    "checkin": "2026-10-11",
+    "checkout": "2026-10-13"
+  }
+}
