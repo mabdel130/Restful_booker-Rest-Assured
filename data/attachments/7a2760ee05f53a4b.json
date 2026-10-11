@@ -1,0 +1,11 @@
+{
+  "firstname": "Herbert",
+  "lastname": "Feil",
+  "totalprice": "416",
+  "depositpaid": "true",
+  "bookingdates": {
+    "checkin": "2026-10-18",
+    "checkout": "2026-10-25"
+  },
+  "additionalneeds": "Tacos"
+}
