@@ -1,0 +1,26 @@
+08:47:34.400 [TestNG-PoolService-4] INFO  Hooks - ### SCENARIO START: Partially update booking name to "Jean-Luc O'Connor"
+08:47:34.402 [TestNG-PoolService-4] INFO  Hooks - Obtaining auth token for an @auth scenario
+08:47:34.403 [TestNG-PoolService-4] INFO  RestClient - --> POST /auth
+08:47:34.452 [TestNG-PoolService-4] INFO  RestClient - <-- POST /auth responded 200 in 49 ms
+08:47:34.457 [TestNG-PoolService-4] DEBUG BookingSteps - Payload from generated data: Booking(firstname=Williams, lastname=Schiller, totalprice=1222, depositpaid=true, bookingdates=BookingDates(checkin=2026-10-20, checkout=2026-10-23), additionalneeds=Poke)
+08:47:34.458 [TestNG-PoolService-4] INFO  RestClient - --> POST /booking
+08:47:34.506 [TestNG-PoolService-4] INFO  RestClient - <-- POST /booking responded 200 in 48 ms
+08:47:34.506 [TestNG-PoolService-4] INFO  ApiAssertions - Asserting status code is 200
+08:47:34.508 [TestNG-PoolService-4] INFO  ApiAssertions - Asserting content type is JSON
+08:47:34.509 [TestNG-PoolService-4] INFO  ApiAssertions - Asserting body is not empty
+08:47:34.529 [TestNG-PoolService-4] INFO  ApiAssertions - Asserting field 'bookingid' is present
+08:47:34.530 [TestNG-PoolService-4] INFO  ApiAssertions - Asserting response time 29ms is below 30000ms
+08:47:34.535 [TestNG-PoolService-4] INFO  BookingSteps - Created booking id 3579
+08:47:34.538 [TestNG-PoolService-4] INFO  RestClient - --> PATCH /booking/{id}
+08:47:34.571 [TestNG-PoolService-4] INFO  RestClient - <-- PATCH /booking/{id} responded 200 in 33 ms
+08:47:34.572 [TestNG-PoolService-4] INFO  ApiAssertions - Asserting status code is 200
+08:47:34.573 [TestNG-PoolService-4] INFO  ApiAssertions - Asserting response time 23ms is below 30000ms
+08:47:34.574 [TestNG-PoolService-4] INFO  RestClient - --> GET /booking/{id}
+08:47:34.616 [TestNG-PoolService-4] INFO  RestClient - <-- GET /booking/{id} responded 200 in 42 ms
+08:47:34.619 [TestNG-PoolService-4] INFO  ApiAssertions - Asserting status code is 200
+08:47:34.619 [TestNG-PoolService-4] INFO  ApiAssertions - Asserting content type is JSON
+08:47:34.619 [TestNG-PoolService-4] INFO  ApiAssertions - Asserting body is not empty
+08:47:34.623 [TestNG-PoolService-4] INFO  Hooks - Cleaning up booking 3579
+08:47:34.624 [TestNG-PoolService-4] INFO  RestClient - --> DELETE /booking/{id}
+08:47:34.660 [TestNG-PoolService-4] INFO  RestClient - <-- DELETE /booking/{id} responded 201 in 36 ms
+08:47:34.667 [TestNG-PoolService-4] INFO  Hooks - ### SCENARIO END: Partially update booking name to "Jean-Luc O'Connor" -> PASSED
