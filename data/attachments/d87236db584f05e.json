@@ -1,0 +1,11 @@
+{
+  "firstname": "Jayson",
+  "lastname": "King",
+  "totalprice": "425",
+  "depositpaid": "false",
+  "bookingdates": {
+    "checkin": "2026-10-20",
+    "checkout": "2026-10-27"
+  },
+  "additionalneeds": "Massaman Curry"
+}
