@@ -1,0 +1,11 @@
+{
+  "firstname": "Mitchell",
+  "lastname": "Kshlerin",
+  "totalprice": "2919",
+  "depositpaid": "false",
+  "bookingdates": {
+    "checkin": "2026-11-16",
+    "checkout": "2026-12-01"
+  },
+  "additionalneeds": "Late checkout"
+}

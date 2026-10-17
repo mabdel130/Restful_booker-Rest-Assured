@@ -1,0 +1,11 @@
+{
+  "firstname": "Elton",
+  "lastname": "Bogisich",
+  "totalprice": "111",
+  "depositpaid": "false",
+  "bookingdates": {
+    "checkin": "2026-10-24",
+    "checkout": "2026-10-31"
+  },
+  "additionalneeds": "Katsu Curry"
+}
