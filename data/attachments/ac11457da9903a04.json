@@ -1,0 +1,11 @@
+{
+  "firstname": "Harriett",
+  "lastname": "Breitenberg",
+  "totalprice": "7241",
+  "depositpaid": "true",
+  "bookingdates": {
+    "checkin": "2026-12-17",
+    "checkout": "2027-02-15"
+  },
+  "additionalneeds": "Airport transfer"
+}
