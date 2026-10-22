@@ -1,0 +1,13 @@
+07:16:08.436 [TestNG-PoolService-1] INFO  Hooks - ### SCENARIO START: Generate a token with valid credentials
+07:16:08.574 [TestNG-PoolService-1] INFO  AuthSteps - Requesting auth token for user 'admin'
+07:16:09.287 [TestNG-PoolService-1] INFO  RestClient - --> POST /auth
+07:16:11.441 [TestNG-PoolService-1] INFO  RestClient - <-- POST /auth responded 200 in 2154 ms
+07:16:11.447 [TestNG-PoolService-1] INFO  ApiAssertions - Asserting status code is 200
+07:16:11.458 [TestNG-PoolService-1] INFO  ApiAssertions - Asserting response time 883ms is below 30000ms
+07:16:11.460 [TestNG-PoolService-1] INFO  ApiAssertions - Asserting status code is 200
+07:16:11.461 [TestNG-PoolService-1] INFO  ApiAssertions - Asserting content type is JSON
+07:16:11.461 [TestNG-PoolService-1] INFO  ApiAssertions - Asserting body is not empty
+07:16:12.212 [TestNG-PoolService-1] INFO  ApiAssertions - Asserting field 'token' is present
+07:16:12.215 [TestNG-PoolService-1] INFO  ApiAssertions - Asserting response time 883ms is below 30000ms
+07:16:12.266 [TestNG-PoolService-1] INFO  AuthSteps - Received a valid auth token
+07:16:12.276 [TestNG-PoolService-1] INFO  Hooks - ### SCENARIO END: Generate a token with valid credentials -> PASSED

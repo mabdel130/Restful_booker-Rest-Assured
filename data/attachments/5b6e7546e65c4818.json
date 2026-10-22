@@ -1,0 +1,10 @@
+{
+  "firstname": "Marget",
+  "lastname": "Langosh",
+  "totalprice": "70",
+  "depositpaid": "false",
+  "bookingdates": {
+    "checkin": "2026-10-23",
+    "checkout": "2026-10-25"
+  }
+}
