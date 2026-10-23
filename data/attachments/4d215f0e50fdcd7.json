@@ -1,0 +1,11 @@
+{
+  "firstname": "Libbie",
+  "lastname": "Hill",
+  "totalprice": "529",
+  "depositpaid": "true",
+  "bookingdates": {
+    "checkin": "2026-10-30",
+    "checkout": "2026-11-06"
+  },
+  "additionalneeds": "Pierogi"
+}

@@ -1,0 +1,11 @@
+{
+  "firstname": "Gabriela",
+  "lastname": "Ondricka",
+  "totalprice": "1691",
+  "depositpaid": "false",
+  "bookingdates": {
+    "checkin": "2026-11-22",
+    "checkout": "2026-12-07"
+  },
+  "additionalneeds": "Late checkout"
+}
