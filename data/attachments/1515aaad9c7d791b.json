@@ -1,0 +1,11 @@
+{
+  "firstname": "Maragret",
+  "lastname": "Hessel",
+  "totalprice": "1784",
+  "depositpaid": "false",
+  "bookingdates": {
+    "checkin": "2026-11-25",
+    "checkout": "2026-12-10"
+  },
+  "additionalneeds": "Late checkout"
+}
