@@ -1,0 +1,11 @@
+{
+  "firstname": "Alex",
+  "lastname": "Dach",
+  "totalprice": "3323",
+  "depositpaid": "true",
+  "bookingdates": {
+    "checkin": "2026-11-26",
+    "checkout": "2026-12-11"
+  },
+  "additionalneeds": "Late checkout"
+}
