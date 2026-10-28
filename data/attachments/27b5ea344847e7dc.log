@@ -1,0 +1,19 @@
+02:15:05.993 [TestNG-PoolService-2] INFO  Hooks - ### SCENARIO START: Create a booking from payload "booking-long-stay.json"
+02:15:05.996 [TestNG-PoolService-2] INFO  JsonDataReader - Loaded test data 'booking-long-stay.json' with dynamic values resolved
+02:15:05.997 [TestNG-PoolService-2] DEBUG BookingSteps - Payload from test data file booking-long-stay.json: Booking(firstname=Willard, lastname=Murphy, totalprice=6286, depositpaid=true, bookingdates=BookingDates(checkin=2026-12-27, checkout=2027-02-25), additionalneeds=Airport transfer)
+02:15:05.997 [TestNG-PoolService-2] INFO  RestClient - --> POST /booking
+02:15:06.116 [TestNG-PoolService-2] INFO  RestClient - <-- POST /booking responded 200 in 119 ms
+02:15:06.117 [TestNG-PoolService-2] INFO  ApiAssertions - Asserting status code is 200
+02:15:06.117 [TestNG-PoolService-2] INFO  ApiAssertions - Asserting content type is JSON
+02:15:06.117 [TestNG-PoolService-2] INFO  ApiAssertions - Asserting body is not empty
+02:15:06.128 [TestNG-PoolService-2] INFO  ApiAssertions - Asserting field 'bookingid' is present
+02:15:06.128 [TestNG-PoolService-2] INFO  ApiAssertions - Asserting response time 103ms is below 30000ms
+02:15:06.130 [TestNG-PoolService-2] INFO  BookingSteps - Created booking id 2200
+02:15:06.130 [TestNG-PoolService-2] INFO  ApiAssertions - Asserting content type is JSON
+02:15:06.135 [TestNG-PoolService-2] INFO  BookingSteps - Response conforms to schema create-booking-schema.json
+02:15:06.135 [TestNG-PoolService-2] INFO  Hooks - Cleaning up booking 2200
+02:15:06.136 [TestNG-PoolService-2] INFO  RestClient - --> POST /auth
+02:15:06.236 [TestNG-PoolService-2] INFO  RestClient - <-- POST /auth responded 200 in 100 ms
+02:15:06.238 [TestNG-PoolService-2] INFO  RestClient - --> DELETE /booking/{id}
+02:15:06.345 [TestNG-PoolService-2] INFO  RestClient - <-- DELETE /booking/{id} responded 201 in 107 ms
+02:15:06.345 [TestNG-PoolService-2] INFO  Hooks - ### SCENARIO END: Create a booking from payload "booking-long-stay.json" -> PASSED
