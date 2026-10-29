@@ -1,0 +1,11 @@
+{
+  "firstname": "Dannielle",
+  "lastname": "Ziemann",
+  "totalprice": "671",
+  "depositpaid": "false",
+  "bookingdates": {
+    "checkin": "2026-11-05",
+    "checkout": "2026-11-12"
+  },
+  "additionalneeds": "Katsu Curry"
+}

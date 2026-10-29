@@ -1,0 +1,11 @@
+{
+  "firstname": "Paz",
+  "lastname": "Rempel",
+  "totalprice": "2013",
+  "depositpaid": "false",
+  "bookingdates": {
+    "checkin": "2026-11-28",
+    "checkout": "2026-12-13"
+  },
+  "additionalneeds": "Late checkout"
+}
