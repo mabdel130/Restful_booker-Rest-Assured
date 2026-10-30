@@ -1,0 +1,11 @@
+{
+  "firstname": "Ozell",
+  "lastname": "Kuhlman",
+  "totalprice": "4113",
+  "depositpaid": "true",
+  "bookingdates": {
+    "checkin": "2026-11-29",
+    "checkout": "2026-12-14"
+  },
+  "additionalneeds": "Late checkout"
+}
