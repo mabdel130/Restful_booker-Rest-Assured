@@ -1,0 +1,11 @@
+{
+  "firstname": "Marlin",
+  "lastname": "Bartoletti",
+  "totalprice": "7776",
+  "depositpaid": "true",
+  "bookingdates": {
+    "checkin": "2026-12-30",
+    "checkout": "2027-02-28"
+  },
+  "additionalneeds": "Airport transfer"
+}

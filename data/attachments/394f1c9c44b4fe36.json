@@ -1,0 +1,11 @@
+{
+  "firstname": "Derick",
+  "lastname": "Deckow",
+  "totalprice": "271",
+  "depositpaid": "true",
+  "bookingdates": {
+    "checkin": "2026-11-07",
+    "checkout": "2026-11-14"
+  },
+  "additionalneeds": "Chicken Wings"
+}

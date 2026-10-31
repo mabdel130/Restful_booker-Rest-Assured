@@ -1,0 +1,11 @@
+{
+  "firstname": "Lu",
+  "lastname": "Connelly",
+  "totalprice": "873",
+  "depositpaid": "true",
+  "bookingdates": {
+    "checkin": "2026-11-07",
+    "checkout": "2026-11-14"
+  },
+  "additionalneeds": "French Toast"
+}
