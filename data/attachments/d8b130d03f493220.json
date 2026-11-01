@@ -1,0 +1,11 @@
+{
+  "firstname": "Maye",
+  "lastname": "Corwin",
+  "totalprice": "7055",
+  "depositpaid": "true",
+  "bookingdates": {
+    "checkin": "2026-12-31",
+    "checkout": "2027-03-01"
+  },
+  "additionalneeds": "Airport transfer"
+}
