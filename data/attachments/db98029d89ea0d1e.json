@@ -1,0 +1,11 @@
+{
+  "firstname": "Keisha",
+  "lastname": "Hoppe",
+  "totalprice": "6421",
+  "depositpaid": "true",
+  "bookingdates": {
+    "checkin": "2027-01-01",
+    "checkout": "2027-03-02"
+  },
+  "additionalneeds": "Airport transfer"
+}
