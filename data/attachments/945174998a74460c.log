@@ -1,0 +1,11 @@
+08:45:18.886 [TestNG-PoolService-1] INFO  Hooks - ### SCENARIO START: Authentication is rejected for "sql injection"
+08:45:18.890 [TestNG-PoolService-1] INFO  AuthSteps - Requesting auth token for user 'admin' OR '1'='1'
+08:45:18.891 [TestNG-PoolService-1] INFO  RestClient - --> POST /auth
+08:45:19.142 [TestNG-PoolService-1] INFO  RestClient - <-- POST /auth responded 200 in 251 ms
+08:45:19.143 [TestNG-PoolService-1] INFO  ApiAssertions - Asserting status code is 200
+08:45:19.144 [TestNG-PoolService-1] INFO  ApiAssertions - Asserting response time 222ms is below 30000ms
+08:45:19.145 [TestNG-PoolService-1] INFO  ApiAssertions - Asserting status code is 200
+08:45:19.145 [TestNG-PoolService-1] INFO  ApiAssertions - Asserting content type is JSON
+08:45:19.163 [TestNG-PoolService-1] INFO  ApiAssertions - Asserting field 'reason' equals Bad credentials
+08:45:19.170 [TestNG-PoolService-1] INFO  AuthSteps - Authentication correctly rejected: Bad credentials
+08:45:19.172 [TestNG-PoolService-1] INFO  Hooks - ### SCENARIO END: Authentication is rejected for "sql injection" -> PASSED
