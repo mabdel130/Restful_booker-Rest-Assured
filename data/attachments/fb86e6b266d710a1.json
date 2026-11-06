@@ -1,0 +1,11 @@
+{
+  "firstname": "Fredrick",
+  "lastname": "Koepp",
+  "totalprice": "707",
+  "depositpaid": "false",
+  "bookingdates": {
+    "checkin": "2026-11-13",
+    "checkout": "2026-11-20"
+  },
+  "additionalneeds": "Pasta with Tomato and Basil"
+}

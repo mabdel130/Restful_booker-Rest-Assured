@@ -1,0 +1,11 @@
+{
+  "firstname": "Linwood",
+  "lastname": "Yost",
+  "totalprice": "2888",
+  "depositpaid": "true",
+  "bookingdates": {
+    "checkin": "2026-12-06",
+    "checkout": "2026-12-21"
+  },
+  "additionalneeds": "Late checkout"
+}

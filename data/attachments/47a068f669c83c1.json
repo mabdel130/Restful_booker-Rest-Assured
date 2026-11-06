@@ -1,0 +1,11 @@
+{
+  "firstname": "Tamekia",
+  "lastname": "Hahn",
+  "totalprice": "506",
+  "depositpaid": "true",
+  "bookingdates": {
+    "checkin": "2026-11-13",
+    "checkout": "2026-11-20"
+  },
+  "additionalneeds": "Scotch Eggs"
+}
