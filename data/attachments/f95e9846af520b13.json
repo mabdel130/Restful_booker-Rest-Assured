@@ -1,0 +1,11 @@
+{
+  "firstname": "Anna",
+  "lastname": "O'Kon",
+  "totalprice": "4440",
+  "depositpaid": "true",
+  "bookingdates": {
+    "checkin": "2027-01-06",
+    "checkout": "2027-03-07"
+  },
+  "additionalneeds": "Airport transfer"
+}

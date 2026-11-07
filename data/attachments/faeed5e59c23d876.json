@@ -1,0 +1,11 @@
+{
+  "firstname": "Armandina",
+  "lastname": "Huels",
+  "totalprice": "2021",
+  "depositpaid": "true",
+  "bookingdates": {
+    "checkin": "2026-12-07",
+    "checkout": "2026-12-22"
+  },
+  "additionalneeds": "Late checkout"
+}

@@ -1,0 +1,7 @@
+08:29:25.541 [TestNG-PoolService-1] INFO  Hooks - ### SCENARIO START: Retrieving a non-existent booking id 0 returns 404
+08:29:25.542 [TestNG-PoolService-1] INFO  BookingSteps - Retrieving booking by explicit id 0
+08:29:25.543 [TestNG-PoolService-1] INFO  RestClient - --> GET /booking/{id}
+08:29:25.722 [TestNG-PoolService-1] INFO  RestClient - <-- GET /booking/{id} responded 404 in 179 ms
+08:29:25.723 [TestNG-PoolService-1] INFO  ApiAssertions - Asserting status code is 404
+08:29:25.723 [TestNG-PoolService-1] INFO  ApiAssertions - Asserting response time 170ms is below 30000ms
+08:29:25.724 [TestNG-PoolService-1] INFO  Hooks - ### SCENARIO END: Retrieving a non-existent booking id 0 returns 404 -> PASSED
