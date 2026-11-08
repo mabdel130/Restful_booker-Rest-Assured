@@ -1,0 +1,11 @@
+08:42:18.985 [TestNG-PoolService-3] INFO  Hooks - ### SCENARIO START: Authentication is rejected for "unknown user"
+08:42:19.087 [TestNG-PoolService-3] INFO  AuthSteps - Requesting auth token for user 'intruder'
+08:42:19.628 [TestNG-PoolService-3] INFO  RestClient - --> POST /auth
+08:42:21.305 [TestNG-PoolService-3] INFO  RestClient - <-- POST /auth responded 200 in 1676 ms
+08:42:21.308 [TestNG-PoolService-3] INFO  ApiAssertions - Asserting status code is 200
+08:42:21.314 [TestNG-PoolService-3] INFO  ApiAssertions - Asserting response time 681ms is below 30000ms
+08:42:21.315 [TestNG-PoolService-3] INFO  ApiAssertions - Asserting status code is 200
+08:42:21.315 [TestNG-PoolService-3] INFO  ApiAssertions - Asserting content type is JSON
+08:42:21.841 [TestNG-PoolService-3] INFO  ApiAssertions - Asserting field 'reason' equals Bad credentials
+08:42:21.877 [TestNG-PoolService-3] INFO  AuthSteps - Authentication correctly rejected: Bad credentials
+08:42:21.887 [TestNG-PoolService-3] INFO  Hooks - ### SCENARIO END: Authentication is rejected for "unknown user" -> PASSED

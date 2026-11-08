@@ -1,0 +1,11 @@
+{
+  "firstname": "Mardell",
+  "lastname": "Lind",
+  "totalprice": "2560",
+  "depositpaid": "true",
+  "bookingdates": {
+    "checkin": "2026-12-08",
+    "checkout": "2026-12-23"
+  },
+  "additionalneeds": "Late checkout"
+}
