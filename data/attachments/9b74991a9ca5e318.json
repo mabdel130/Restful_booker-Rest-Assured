@@ -1,0 +1,11 @@
+{
+  "firstname": "Genaro",
+  "lastname": "Bergstrom",
+  "totalprice": "3774",
+  "depositpaid": "false",
+  "bookingdates": {
+    "checkin": "2026-12-09",
+    "checkout": "2026-12-24"
+  },
+  "additionalneeds": "Late checkout"
+}
