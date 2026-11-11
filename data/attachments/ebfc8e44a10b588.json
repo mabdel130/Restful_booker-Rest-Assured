@@ -1,0 +1,11 @@
+{
+  "firstname": "Clint",
+  "lastname": "Welch",
+  "totalprice": "8313",
+  "depositpaid": "true",
+  "bookingdates": {
+    "checkin": "2027-01-10",
+    "checkout": "2027-03-11"
+  },
+  "additionalneeds": "Airport transfer"
+}

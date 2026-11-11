@@ -1,0 +1,11 @@
+{
+  "firstname": "Eric",
+  "lastname": "McGlynn",
+  "totalprice": "392",
+  "depositpaid": "true",
+  "bookingdates": {
+    "checkin": "2026-11-18",
+    "checkout": "2026-11-25"
+  },
+  "additionalneeds": "Fish and Chips"
+}
