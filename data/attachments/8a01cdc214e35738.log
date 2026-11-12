@@ -1,0 +1,19 @@
+09:26:19.307 [TestNG-PoolService-2] INFO  Hooks - ### SCENARIO START: Create a booking from payload "booking-long-stay.json"
+09:26:19.308 [TestNG-PoolService-2] INFO  JsonDataReader - Loaded test data 'booking-long-stay.json' with dynamic values resolved
+09:26:19.309 [TestNG-PoolService-2] DEBUG BookingSteps - Payload from test data file booking-long-stay.json: Booking(firstname=Suzi, lastname=Kuphal, totalprice=8188, depositpaid=true, bookingdates=BookingDates(checkin=2027-01-11, checkout=2027-03-12), additionalneeds=Airport transfer)
+09:26:19.310 [TestNG-PoolService-2] INFO  RestClient - --> POST /booking
+09:26:19.436 [TestNG-PoolService-2] INFO  RestClient - <-- POST /booking responded 200 in 126 ms
+09:26:19.436 [TestNG-PoolService-2] INFO  ApiAssertions - Asserting status code is 200
+09:26:19.436 [TestNG-PoolService-2] INFO  ApiAssertions - Asserting content type is JSON
+09:26:19.437 [TestNG-PoolService-2] INFO  ApiAssertions - Asserting body is not empty
+09:26:19.452 [TestNG-PoolService-2] INFO  ApiAssertions - Asserting field 'bookingid' is present
+09:26:19.452 [TestNG-PoolService-2] INFO  ApiAssertions - Asserting response time 116ms is below 30000ms
+09:26:19.455 [TestNG-PoolService-2] INFO  BookingSteps - Created booking id 2814
+09:26:19.456 [TestNG-PoolService-2] INFO  ApiAssertions - Asserting content type is JSON
+09:26:19.462 [TestNG-PoolService-2] INFO  BookingSteps - Response conforms to schema create-booking-schema.json
+09:26:19.463 [TestNG-PoolService-2] INFO  Hooks - Cleaning up booking 2814
+09:26:19.464 [TestNG-PoolService-2] INFO  RestClient - --> POST /auth
+09:26:19.583 [TestNG-PoolService-2] INFO  RestClient - <-- POST /auth responded 200 in 119 ms
+09:26:19.585 [TestNG-PoolService-2] INFO  RestClient - --> DELETE /booking/{id}
+09:26:19.711 [TestNG-PoolService-2] INFO  RestClient - <-- DELETE /booking/{id} responded 201 in 126 ms
+09:26:19.712 [TestNG-PoolService-2] INFO  Hooks - ### SCENARIO END: Create a booking from payload "booking-long-stay.json" -> PASSED
