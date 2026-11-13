@@ -1,0 +1,18 @@
+09:13:33.809 [TestNG-PoolService-3] INFO  Hooks - ### SCENARIO START: Create a booking with dynamically generated data
+09:13:33.818 [TestNG-PoolService-3] DEBUG BookingSteps - Payload from generated data: Booking(firstname=Arvilla, lastname=Beer, totalprice=512, depositpaid=true, bookingdates=BookingDates(checkin=2026-11-29, checkout=2026-12-11), additionalneeds=Chicken Milanese)
+09:13:33.819 [TestNG-PoolService-3] INFO  RestClient - --> POST /booking
+09:13:33.939 [TestNG-PoolService-3] INFO  RestClient - <-- POST /booking responded 200 in 120 ms
+09:13:33.940 [TestNG-PoolService-3] INFO  ApiAssertions - Asserting status code is 200
+09:13:33.940 [TestNG-PoolService-3] INFO  ApiAssertions - Asserting content type is JSON
+09:13:33.941 [TestNG-PoolService-3] INFO  ApiAssertions - Asserting body is not empty
+09:13:33.951 [TestNG-PoolService-3] INFO  ApiAssertions - Asserting field 'bookingid' is present
+09:13:33.951 [TestNG-PoolService-3] INFO  ApiAssertions - Asserting response time 99ms is below 30000ms
+09:13:33.954 [TestNG-PoolService-3] INFO  BookingSteps - Created booking id 1347
+09:13:33.955 [TestNG-PoolService-3] INFO  ApiAssertions - Asserting content type is JSON
+09:13:33.960 [TestNG-PoolService-3] INFO  BookingSteps - Response conforms to schema create-booking-schema.json
+09:13:33.961 [TestNG-PoolService-3] INFO  Hooks - Cleaning up booking 1347
+09:13:33.962 [TestNG-PoolService-3] INFO  RestClient - --> POST /auth
+09:13:34.088 [TestNG-PoolService-3] INFO  RestClient - <-- POST /auth responded 200 in 126 ms
+09:13:34.093 [TestNG-PoolService-3] INFO  RestClient - --> DELETE /booking/{id}
+09:13:34.206 [TestNG-PoolService-3] INFO  RestClient - <-- DELETE /booking/{id} responded 201 in 113 ms
+09:13:34.207 [TestNG-PoolService-3] INFO  Hooks - ### SCENARIO END: Create a booking with dynamically generated data -> PASSED

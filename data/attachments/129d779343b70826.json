@@ -1,0 +1,11 @@
+{
+  "firstname": "Denita",
+  "lastname": "Olson",
+  "totalprice": "327",
+  "depositpaid": "false",
+  "bookingdates": {
+    "checkin": "2026-11-20",
+    "checkout": "2026-11-27"
+  },
+  "additionalneeds": "Pierogi"
+}

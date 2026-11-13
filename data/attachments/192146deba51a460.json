@@ -1,0 +1,11 @@
+{
+  "firstname": "Valencia",
+  "lastname": "Gorczany",
+  "totalprice": "339",
+  "depositpaid": "false",
+  "bookingdates": {
+    "checkin": "2026-11-20",
+    "checkout": "2026-11-27"
+  },
+  "additionalneeds": "French Fries with Sausages"
+}

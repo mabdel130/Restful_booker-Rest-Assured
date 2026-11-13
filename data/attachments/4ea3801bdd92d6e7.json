@@ -1,0 +1,10 @@
+{
+  "firstname": "Fransisca",
+  "lastname": "McLaughlin",
+  "totalprice": "139",
+  "depositpaid": "false",
+  "bookingdates": {
+    "checkin": "2026-11-14",
+    "checkout": "2026-11-16"
+  }
+}
