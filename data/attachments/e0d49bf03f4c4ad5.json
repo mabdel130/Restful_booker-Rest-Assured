@@ -1,0 +1,10 @@
+{
+  "firstname": "Keesha",
+  "lastname": "Christiansen",
+  "totalprice": "130",
+  "depositpaid": "false",
+  "bookingdates": {
+    "checkin": "2026-11-16",
+    "checkout": "2026-11-18"
+  }
+}

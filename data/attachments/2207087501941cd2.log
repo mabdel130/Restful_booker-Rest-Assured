@@ -1,0 +1,19 @@
+08:55:17.852 [TestNG-PoolService-1] INFO  Hooks - ### SCENARIO START: Create a booking from payload "booking-long-stay.json"
+08:55:17.853 [TestNG-PoolService-1] INFO  JsonDataReader - Loaded test data 'booking-long-stay.json' with dynamic values resolved
+08:55:17.854 [TestNG-PoolService-1] DEBUG BookingSteps - Payload from test data file booking-long-stay.json: Booking(firstname=Frederic, lastname=Jakubowski, totalprice=5144, depositpaid=true, bookingdates=BookingDates(checkin=2027-01-14, checkout=2027-03-15), additionalneeds=Airport transfer)
+08:55:17.855 [TestNG-PoolService-1] INFO  RestClient - --> POST /booking
+08:55:17.995 [TestNG-PoolService-1] INFO  RestClient - <-- POST /booking responded 200 in 140 ms
+08:55:17.996 [TestNG-PoolService-1] INFO  ApiAssertions - Asserting status code is 200
+08:55:17.996 [TestNG-PoolService-1] INFO  ApiAssertions - Asserting content type is JSON
+08:55:17.996 [TestNG-PoolService-1] INFO  ApiAssertions - Asserting body is not empty
+08:55:18.008 [TestNG-PoolService-1] INFO  ApiAssertions - Asserting field 'bookingid' is present
+08:55:18.009 [TestNG-PoolService-1] INFO  ApiAssertions - Asserting response time 106ms is below 30000ms
+08:55:18.012 [TestNG-PoolService-1] INFO  BookingSteps - Created booking id 2243
+08:55:18.013 [TestNG-PoolService-1] INFO  ApiAssertions - Asserting content type is JSON
+08:55:18.024 [TestNG-PoolService-1] INFO  BookingSteps - Response conforms to schema create-booking-schema.json
+08:55:18.024 [TestNG-PoolService-1] INFO  Hooks - Cleaning up booking 2243
+08:55:18.028 [TestNG-PoolService-1] INFO  RestClient - --> POST /auth
+08:55:18.144 [TestNG-PoolService-1] INFO  RestClient - <-- POST /auth responded 200 in 116 ms
+08:55:18.149 [TestNG-PoolService-1] INFO  RestClient - --> DELETE /booking/{id}
+08:55:18.275 [TestNG-PoolService-1] INFO  RestClient - <-- DELETE /booking/{id} responded 201 in 126 ms
+08:55:18.276 [TestNG-PoolService-1] INFO  Hooks - ### SCENARIO END: Create a booking from payload "booking-long-stay.json" -> PASSED

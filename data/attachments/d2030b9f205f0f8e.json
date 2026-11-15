@@ -1,0 +1,11 @@
+{
+  "firstname": "Hollis",
+  "lastname": "Moen",
+  "totalprice": "821",
+  "depositpaid": "true",
+  "bookingdates": {
+    "checkin": "2026-11-22",
+    "checkout": "2026-11-29"
+  },
+  "additionalneeds": "Fish and Chips"
+}
