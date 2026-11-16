@@ -1,0 +1,11 @@
+{
+  "firstname": "Lowell",
+  "lastname": "Barrows",
+  "totalprice": "4354",
+  "depositpaid": "true",
+  "bookingdates": {
+    "checkin": "2026-12-16",
+    "checkout": "2026-12-31"
+  },
+  "additionalneeds": "Late checkout"
+}
