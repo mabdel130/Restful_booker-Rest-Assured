@@ -1,0 +1,10 @@
+{
+  "firstname": "Creola",
+  "lastname": "Rice",
+  "totalprice": "67",
+  "depositpaid": "false",
+  "bookingdates": {
+    "checkin": "2026-11-18",
+    "checkout": "2026-11-20"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "firstname": "Rachele",
+  "lastname": "Pollich",
+  "totalprice": "434",
+  "depositpaid": "false",
+  "bookingdates": {
+    "checkin": "2026-11-24",
+    "checkout": "2026-12-01"
+  },
+  "additionalneeds": "Linguine with Clams"
+}

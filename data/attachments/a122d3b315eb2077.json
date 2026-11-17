@@ -1,0 +1,11 @@
+{
+  "firstname": "Jessika",
+  "lastname": "Reynolds",
+  "totalprice": "852",
+  "depositpaid": "true",
+  "bookingdates": {
+    "checkin": "2026-11-24",
+    "checkout": "2026-12-01"
+  },
+  "additionalneeds": "Kebab"
+}

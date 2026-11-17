@@ -1,0 +1,40 @@
+10:20:26.411 [TestNG-PoolService-4] INFO  Hooks - ### SCENARIO START: Full booking lifecycle - create, read, update, delete using "create-booking.json"
+10:20:26.412 [TestNG-PoolService-4] INFO  Hooks - Obtaining auth token for an @auth scenario
+10:20:26.418 [TestNG-PoolService-4] INFO  RestClient - --> POST /auth
+10:20:26.661 [TestNG-PoolService-4] INFO  RestClient - <-- POST /auth responded 200 in 242 ms
+10:20:26.670 [TestNG-PoolService-4] INFO  JsonDataReader - Loaded test data 'create-booking.json' with dynamic values resolved
+10:20:26.670 [TestNG-PoolService-4] DEBUG BookingSteps - Payload from test data file create-booking.json: Booking(firstname=Jessika, lastname=Reynolds, totalprice=852, depositpaid=true, bookingdates=BookingDates(checkin=2026-11-24, checkout=2026-12-01), additionalneeds=Kebab)
+10:20:26.671 [TestNG-PoolService-4] INFO  RestClient - --> POST /booking
+10:20:26.897 [TestNG-PoolService-4] INFO  RestClient - <-- POST /booking responded 200 in 226 ms
+10:20:26.900 [TestNG-PoolService-4] INFO  ApiAssertions - Asserting status code is 200
+10:20:26.900 [TestNG-PoolService-4] INFO  ApiAssertions - Asserting content type is JSON
+10:20:26.900 [TestNG-PoolService-4] INFO  ApiAssertions - Asserting body is not empty
+10:20:26.916 [TestNG-PoolService-4] INFO  ApiAssertions - Asserting field 'bookingid' is present
+10:20:26.916 [TestNG-PoolService-4] INFO  ApiAssertions - Asserting response time 206ms is below 30000ms
+10:20:26.920 [TestNG-PoolService-4] INFO  BookingSteps - Created booking id 5498
+10:20:26.921 [TestNG-PoolService-4] INFO  RestClient - --> GET /booking/{id}
+10:20:27.166 [TestNG-PoolService-4] INFO  RestClient - <-- GET /booking/{id} responded 200 in 245 ms
+10:20:27.168 [TestNG-PoolService-4] INFO  ApiAssertions - Asserting status code is 200
+10:20:27.168 [TestNG-PoolService-4] INFO  ApiAssertions - Asserting content type is JSON
+10:20:27.168 [TestNG-PoolService-4] INFO  ApiAssertions - Asserting body is not empty
+10:20:27.178 [TestNG-PoolService-4] INFO  JsonDataReader - Loaded test data 'update-booking.json' with dynamic values resolved
+10:20:27.178 [TestNG-PoolService-4] DEBUG BookingSteps - Payload from test data file update-booking.json: Booking(firstname=Arron, lastname=Stoltenberg, totalprice=3556, depositpaid=false, bookingdates=BookingDates(checkin=2026-12-17, checkout=2027-01-01), additionalneeds=Late checkout)
+10:20:27.182 [TestNG-PoolService-4] INFO  RestClient - --> PUT /booking/{id}
+10:20:27.398 [TestNG-PoolService-4] INFO  RestClient - <-- PUT /booking/{id} responded 200 in 216 ms
+10:20:27.399 [TestNG-PoolService-4] INFO  BookingSteps - Updated booking 5498 from update-booking.json
+10:20:27.399 [TestNG-PoolService-4] INFO  ApiAssertions - Asserting status code is 200
+10:20:27.400 [TestNG-PoolService-4] INFO  ApiAssertions - Asserting response time 197ms is below 30000ms
+10:20:27.401 [TestNG-PoolService-4] INFO  RestClient - --> GET /booking/{id}
+10:20:27.612 [TestNG-PoolService-4] INFO  RestClient - <-- GET /booking/{id} responded 200 in 210 ms
+10:20:27.612 [TestNG-PoolService-4] INFO  ApiAssertions - Asserting status code is 200
+10:20:27.612 [TestNG-PoolService-4] INFO  ApiAssertions - Asserting content type is JSON
+10:20:27.612 [TestNG-PoolService-4] INFO  ApiAssertions - Asserting body is not empty
+10:20:27.616 [TestNG-PoolService-4] INFO  RestClient - --> DELETE /booking/{id}
+10:20:27.827 [TestNG-PoolService-4] INFO  RestClient - <-- DELETE /booking/{id} responded 201 in 210 ms
+10:20:27.828 [TestNG-PoolService-4] INFO  ApiAssertions - Asserting status code is 201
+10:20:27.828 [TestNG-PoolService-4] INFO  ApiAssertions - Asserting response time 203ms is below 30000ms
+10:20:27.835 [TestNG-PoolService-4] INFO  RestClient - --> GET /booking/{id}
+10:20:28.044 [TestNG-PoolService-4] INFO  RestClient - <-- GET /booking/{id} responded 404 in 209 ms
+10:20:28.044 [TestNG-PoolService-4] INFO  ApiAssertions - Asserting status code is 404
+10:20:28.044 [TestNG-PoolService-4] INFO  BookingSteps - Confirmed booking 5498 is gone
+10:20:28.045 [TestNG-PoolService-4] INFO  Hooks - ### SCENARIO END: Full booking lifecycle - create, read, update, delete using "create-booking.json" -> PASSED
