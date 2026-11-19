@@ -1,0 +1,11 @@
+{
+  "firstname": "Mellie",
+  "lastname": "Franecki",
+  "totalprice": "405",
+  "depositpaid": "false",
+  "bookingdates": {
+    "checkin": "2026-11-26",
+    "checkout": "2026-12-03"
+  },
+  "additionalneeds": "French Toast"
+}

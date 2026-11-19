@@ -1,0 +1,10 @@
+{
+  "firstname": "Althea",
+  "lastname": "Rutherford",
+  "totalprice": "143",
+  "depositpaid": "false",
+  "bookingdates": {
+    "checkin": "2026-11-20",
+    "checkout": "2026-11-22"
+  }
+}

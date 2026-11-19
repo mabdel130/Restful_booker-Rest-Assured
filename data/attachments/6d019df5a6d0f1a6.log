@@ -1,0 +1,19 @@
+09:58:52.757 [TestNG-PoolService-2] INFO  Hooks - ### SCENARIO START: Create a booking from payload "booking-long-stay.json"
+09:58:52.760 [TestNG-PoolService-2] INFO  JsonDataReader - Loaded test data 'booking-long-stay.json' with dynamic values resolved
+09:58:52.761 [TestNG-PoolService-2] DEBUG BookingSteps - Payload from test data file booking-long-stay.json: Booking(firstname=Ellen, lastname=Gleichner, totalprice=7196, depositpaid=true, bookingdates=BookingDates(checkin=2027-01-18, checkout=2027-03-19), additionalneeds=Airport transfer)
+09:58:52.761 [TestNG-PoolService-2] INFO  RestClient - --> POST /booking
+09:58:52.876 [TestNG-PoolService-2] INFO  RestClient - <-- POST /booking responded 200 in 114 ms
+09:58:52.878 [TestNG-PoolService-2] INFO  ApiAssertions - Asserting status code is 200
+09:58:52.878 [TestNG-PoolService-2] INFO  ApiAssertions - Asserting content type is JSON
+09:58:52.878 [TestNG-PoolService-2] INFO  ApiAssertions - Asserting body is not empty
+09:58:52.887 [TestNG-PoolService-2] INFO  ApiAssertions - Asserting field 'bookingid' is present
+09:58:52.888 [TestNG-PoolService-2] INFO  ApiAssertions - Asserting response time 102ms is below 30000ms
+09:58:52.890 [TestNG-PoolService-2] INFO  BookingSteps - Created booking id 4210
+09:58:52.891 [TestNG-PoolService-2] INFO  ApiAssertions - Asserting content type is JSON
+09:58:52.901 [TestNG-PoolService-2] INFO  BookingSteps - Response conforms to schema create-booking-schema.json
+09:58:52.901 [TestNG-PoolService-2] INFO  Hooks - Cleaning up booking 4210
+09:58:52.902 [TestNG-PoolService-2] INFO  RestClient - --> POST /auth
+09:58:53.039 [TestNG-PoolService-2] INFO  RestClient - <-- POST /auth responded 200 in 137 ms
+09:58:53.041 [TestNG-PoolService-2] INFO  RestClient - --> DELETE /booking/{id}
+09:58:53.165 [TestNG-PoolService-2] INFO  RestClient - <-- DELETE /booking/{id} responded 201 in 124 ms
+09:58:53.168 [TestNG-PoolService-2] INFO  Hooks - ### SCENARIO END: Create a booking from payload "booking-long-stay.json" -> PASSED
