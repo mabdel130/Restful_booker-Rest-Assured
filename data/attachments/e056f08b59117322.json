@@ -1,0 +1,10 @@
+{
+  "firstname": "Coreen",
+  "lastname": "Botsford",
+  "totalprice": "50",
+  "depositpaid": "false",
+  "bookingdates": {
+    "checkin": "2026-11-21",
+    "checkout": "2026-11-23"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "firstname": "Avril",
+  "lastname": "Muller",
+  "totalprice": "489",
+  "depositpaid": "false",
+  "bookingdates": {
+    "checkin": "2026-11-27",
+    "checkout": "2026-12-04"
+  },
+  "additionalneeds": "French Fries with Sausages"
+}

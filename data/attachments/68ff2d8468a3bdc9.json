@@ -1,0 +1,11 @@
+{
+  "firstname": "Zachariah",
+  "lastname": "Macejkovic",
+  "totalprice": "162",
+  "depositpaid": "true",
+  "bookingdates": {
+    "checkin": "2026-11-27",
+    "checkout": "2026-12-04"
+  },
+  "additionalneeds": "Caesar Salad"
+}
