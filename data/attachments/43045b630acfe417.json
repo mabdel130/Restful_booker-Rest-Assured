@@ -1,0 +1,11 @@
+{
+  "firstname": "Jewel",
+  "lastname": "Cummings",
+  "totalprice": "1619",
+  "depositpaid": "false",
+  "bookingdates": {
+    "checkin": "2026-12-21",
+    "checkout": "2027-01-05"
+  },
+  "additionalneeds": "Late checkout"
+}
