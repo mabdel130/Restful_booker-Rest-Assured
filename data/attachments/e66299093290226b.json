@@ -1,0 +1,10 @@
+{
+  "firstname": "Cyrus",
+  "lastname": "Zemlak",
+  "totalprice": "149",
+  "depositpaid": "false",
+  "bookingdates": {
+    "checkin": "2026-11-23",
+    "checkout": "2026-11-25"
+  }
+}

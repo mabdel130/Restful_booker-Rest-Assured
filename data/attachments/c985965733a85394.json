@@ -1,0 +1,11 @@
+{
+  "firstname": "Brittany",
+  "lastname": "Lehner",
+  "totalprice": "660",
+  "depositpaid": "false",
+  "bookingdates": {
+    "checkin": "2026-11-29",
+    "checkout": "2026-12-06"
+  },
+  "additionalneeds": "Bruschette with Tomato"
+}
