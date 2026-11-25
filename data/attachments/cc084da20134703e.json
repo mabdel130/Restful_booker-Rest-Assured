@@ -1,0 +1,11 @@
+{
+  "firstname": "Wes",
+  "lastname": "Pollich",
+  "totalprice": "890",
+  "depositpaid": "true",
+  "bookingdates": {
+    "checkin": "2026-12-02",
+    "checkout": "2026-12-09"
+  },
+  "additionalneeds": "Meatballs with Sauce"
+}
