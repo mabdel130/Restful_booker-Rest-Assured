@@ -1,0 +1,11 @@
+{
+  "firstname": "Samual",
+  "lastname": "Runolfsson",
+  "totalprice": "510",
+  "depositpaid": "false",
+  "bookingdates": {
+    "checkin": "2026-12-03",
+    "checkout": "2026-12-10"
+  },
+  "additionalneeds": "Lasagne"
+}

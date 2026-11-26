@@ -1,0 +1,10 @@
+{
+  "firstname": "Clemencia",
+  "lastname": "Breitenberg",
+  "totalprice": "137",
+  "depositpaid": "false",
+  "bookingdates": {
+    "checkin": "2026-11-27",
+    "checkout": "2026-11-29"
+  }
+}
