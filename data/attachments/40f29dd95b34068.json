@@ -1,0 +1,11 @@
+{
+  "firstname": "Floretta",
+  "lastname": "Stoltenberg",
+  "totalprice": "183",
+  "depositpaid": "true",
+  "bookingdates": {
+    "checkin": "2026-12-04",
+    "checkout": "2026-12-11"
+  },
+  "additionalneeds": "Teriyaki Chicken Donburi"
+}
