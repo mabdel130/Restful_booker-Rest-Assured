@@ -1,0 +1,11 @@
+{
+  "firstname": "Alanna",
+  "lastname": "Cremin",
+  "totalprice": "5168",
+  "depositpaid": "true",
+  "bookingdates": {
+    "checkin": "2027-01-27",
+    "checkout": "2027-03-28"
+  },
+  "additionalneeds": "Airport transfer"
+}

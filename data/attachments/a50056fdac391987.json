@@ -1,0 +1,11 @@
+{
+  "firstname": "Dave",
+  "lastname": "Ward",
+  "totalprice": "144",
+  "depositpaid": "true",
+  "bookingdates": {
+    "checkin": "2026-12-05",
+    "checkout": "2026-12-12"
+  },
+  "additionalneeds": "Bunny Chow"
+}

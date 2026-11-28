@@ -1,0 +1,11 @@
+{
+  "firstname": "Jody",
+  "lastname": "Glover",
+  "totalprice": "146",
+  "depositpaid": "false",
+  "bookingdates": {
+    "checkin": "2026-12-05",
+    "checkout": "2026-12-12"
+  },
+  "additionalneeds": "Chilli con Carne"
+}
